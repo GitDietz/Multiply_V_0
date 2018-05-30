@@ -47,7 +47,9 @@
               <div class="navbar navbar-dark bg-dark box-shadow">
                 <div class="container d-flex justify-content-between">
                   <a href="#" class="navbar-brand d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                        <circle cx="12" cy="13" r="4"></circle></svg>
                     <strong>Multiplication Ninja</strong>
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,49 +61,38 @@
 
         <main>
             <section class="jumbotron text-center">
-            <h1 class="jumbotron-heading">Enter your answer and "Enter" or click the button</h1>
-            <div class="col-md-8 order-md-1">
-                <h4 class="mb-3" id="instructions"></h4>
-                    <form class="question">
-                        <div class="row">
-                            <div class="col-md-5 mb-3">
-                                <label>Question : </label>
-                                <label id="question">{{question}}</label>
-                            </div>
-                            <div class="col-md-2 mb-3">
-                                <input type="text" class="form-control" id="answer" placeholder="" value="" required>
-                            </div>
-                            <div class="col-md-2 mb-3">
-                                <button class="btn btn-primary btn-sm" id="answered" type="submit">Submit answer</button>
-                            </div>
-                            <div class="col-md-2 mb-2">
-                                <button class="btn btn-secondary btn-sm" id="stop_game" type="button">Stop the game</button>
-                            </div>
-
-                        </div>
-                     </form>
-                    <div class="row align-items-center">
-                        <div class="col-md-6 mb-4">
-                            <label id="game_stat"></label>
-                        </div>
-                        <div class="col-md-2 mb-2">
-                            <label id="feedback"></label>
-                        </div>
-
-                        <div class="col-md-2 mb-2 hidden" id="return_main">
-                            <a  href="{{url_for('homepage')}}">Return to Main </a>
-
-                        <!--    <button class="btn btn-secondary btn-sm hidden" id="return_main" type="button">Return to main</button>
-                        -->
-                         </div>
-                    </div>
-
-
+                <h1 class="jumbotron-heading">The Top Scores</h1>
+                <p> Most correctly answered questions per minute </p>
+                <p>You scored {{score}}</p>
+                    {% if add_to_list %}
+                        <h4 id="update_instruction"> Well Done, Add your name to the list!</h4>
+                            <form class="new_name">
+                                <div class="row justify-content-center is-md-table-row">
+                                    <div class="col-md-2 mb-3">
+                                        <input type="text" class="form-control" id="the_name" placeholder="Your name" value="" required>
+                                    </div>
+                                    <div class="col-md-2 mb-3">
+                                        <button class="btn btn-primary btn-sm" id="name_given" type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                    {% else %}
+                        <h4>Some more practice and you can get on the leader board</h4>
+                        <a  href="{{url_for('homepage')}}">Return to Game Menu </a>
+                    {% endif %}
+                <h6 class="leaderboard">
+                    {% for lead in leaders %}
+                       <tr><td>
+                            {{ lead.name }} - {{ lead.CPM }}</br>
+                       </td></tr>
+                    {% endfor %}
+                </h6>
+            <div class="container-fluid">
+                <div class="col-md-12 hidden" id="return_main" >
+                    <a  href="{{url_for('homepage')}}">Return to Game Menu </a>
+                </div>
             </div>
-
-
             <p></p>
-
             </section>
         </main>
 
@@ -126,7 +117,7 @@
 
         <script src="/static/js/plugins.js"></script>
         <script src="/static/js/main.js"></script>
-        <script src="/static/js/game_1.js"></script>
+        <script src="/static/js/leader.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. Add to js file : ?v=2.34.0.1255
         <script>

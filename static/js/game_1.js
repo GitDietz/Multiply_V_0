@@ -1,6 +1,7 @@
 
 $(document).ready(function () {
-console.log('Version 2.1')
+console.log('Version 2.2')
+
 
 $('#answered').click(function(event){
 
@@ -39,6 +40,12 @@ $('#answered').click(function(event){
                 $('#stop_game').hide()
                 $('.jumbotron-heading').html('Your game is finished, Click the <strong>Return to Main</strong> button to start again')
                 $('#return_main').toggleClass('hidden')
+                if (returned['game_type'] === "Set time"){
+                    $(window.location).attr('href', '/leader_board')
+                }
+                //'Set time'
+                //only if this is the timed 1 minute game goto leaderboard
+
             }
             //else {console.log('it is still no')}
 
