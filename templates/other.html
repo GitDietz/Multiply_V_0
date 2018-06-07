@@ -6,7 +6,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <title>Multi Ninja</title>
+        <title>Multi Ninja Experimental</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -59,26 +59,50 @@
 
         <main>
             <section class="jumbotron text-center">
-                    <div class="container">
-                      <h1 class="jumbotron-heading">Multiplication Ninja</h1>
+            <h1 class="jumbotron-heading">Enter your answer and "Enter" or click the button</h1>
+            <div class="col-md-8 order-md-1">
+                <h4 class="mb-3" id="instructions"></h4>
+                    <form class="question">
+                        <div class="row">
+                            <div class="col-md-5 mb-3">
+                                <label>Question : </label>
+                                <label id="question">{{question}}</label>
+                            </div>
+                            <div class="col-md-2 mb-3">
+                                <input class="form-control" id="answer" placeholder="" type="number" pattern="[\d]*" value="" required>
+                            </div>
+                            <div class="col-md-2 mb-3">
+                                <button class="btn btn-primary btn-sm" id="answered" type="submit">Submit answer</button>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <button class="btn btn-secondary btn-sm" id="stop_game" type="button">Stop the game</button>
+                            </div>
 
+                        </div>
+                     </form>
+                    <div class="row align-items-center">
+                        <div class="col-md-6 mb-4">
+                            <label id="game_stat"></label>
+                        </div>
+                        <div class="col-md-2 mb-2">
+                            <label id="feedback"></label>
+                        </div>
 
-                        <p class="lead text-muted">Use this game to improve your skills with times tables </br>The faster and more accurate you get the better.</br></br>
-                        You can play this game as a set number of questions (20) </br>or play for 1 minute and see how many you can complete!</p>
-                      <p>
-                        <a href="{{url_for('start_game',game_mode='Set Q')}}" class="btn btn-primary my-2">Start 20 question game</a>
-                        <a href="{{url_for('start_game',game_mode='Set time')}}" class="btn btn-primary my-2">Start 1 minute game</a>
+                        <div class="col-md-2 mb-2 hidden" id="return_main">
+                            <a  href="{{url_for('homepage')}}">Return to Main </a>
 
-                      </p>
-
+                        <!--    <button class="btn btn-secondary btn-sm hidden" id="return_main" type="button">Return to main</button>
+                        -->
+                         </div>
                     </div>
-            </section>
-            <section id = "bg">
-                <p>
 
-                </p>
-            </section>
 
+            </div>
+
+
+            <p></p>
+
+            </section>
         </main>
 
         <footer class="text-muted">
@@ -93,6 +117,7 @@
 
 
          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
         <script src="/static/js/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="static/js/jquery-3.2.1.min.js"><\/script>')</script>
@@ -102,7 +127,8 @@
         <script src="/static/js/plugins.js"></script>
         <script src="/static/js/main.js"></script>
         <script src="/static/js/game_1.js"></script>
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. Add to js file : ?v=2.34.0.1255
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')

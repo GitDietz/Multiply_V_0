@@ -53,6 +53,11 @@ def submit_answer():
         Q = None
     return jsonify({'result': 'OK good', 'reaction': last_result, 'next_question': Q , 'stat' : stats , 'stop_game' : stop_or_not})
 
+@app.route('/backimage')
+def backimage():
+    return render_template('other.html')
+
+
 
 @app.errorhandler(404)
 def page_not_found(error):
