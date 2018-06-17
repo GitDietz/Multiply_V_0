@@ -3,14 +3,13 @@
 }
 
 .jumbotron {
-  background-image: url('/static/images/lots_o_sums_light.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
-  margin-bottom: 0;
+    background-image: url('/static/images/lots_o_sums_light.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
 }
-
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);

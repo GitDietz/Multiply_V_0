@@ -96,11 +96,6 @@ def add_heigh_score():
     print(l)
     return jsonify({'result': 'Updated'})
 
-@app.route('/backimage')
-def backimage():
-    return render_template('other.html')
-
-
 
 @app.errorhandler(404)
 def page_not_found(error):
