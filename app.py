@@ -13,8 +13,8 @@ theQ = Q()
 myPerform = Perf('time')
 stats = ''
 stop_or_not = 'no'
-l_file = os.getcwd()+'/static/files/leaders.json'
-
+the_folder = os.path.dirname(os.path.abspath(__file__))
+l_file = os.path.join(the_folder,'static/files/leaders.json')
 
 @app.route('/')
 def homepage():
