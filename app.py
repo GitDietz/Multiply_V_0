@@ -2,7 +2,7 @@ from flask import Flask,url_for, render_template, session, redirect, request, g,
 import logger as l, json
 from multi import Q,Perf,write_results
 from operator import itemgetter
-import utils
+import utils, os
 #from flask_table import Table, Col
 
 app = Flask(__name__)
@@ -13,6 +13,7 @@ theQ = Q()
 myPerform = Perf('time')
 stats = ''
 stop_or_not = 'no'
+l_file = os.getcwd()+'/static/files/leaders.json'
 
 
 @app.route('/')
@@ -71,8 +72,9 @@ def submit_answer():
 @app.route('/leader_board')
 def show_leader_board():
     print(myPerform.CorrectRate)
+    print(l_file)
     score = myPerform.CorrectRate
-    l = utils.load_list_json('leaders.json')
+    l = utils.load_list_json(l_file)
     #print(l)
     l.sort(key=itemgetter('CPM'))
     #for leader in l:
@@ -92,7 +94,7 @@ def add_heigh_score():
     user_name = request.form['user_name']
     print('score is '+str(myPerform.CorrectRate))
     print('The new top score is going to be added : {}'.format(user_name))
-    l = utils.add_high_score('leaders.json',user_name,myPerform.CorrectRate,10)
+    l = utils.add_high_score(l_file,user_name,myPerform.CorrectRate,10)
     print(l)
     return jsonify({'result': 'Updated'})
 
