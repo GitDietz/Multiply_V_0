@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-console.log('Version 2.2')
+console.log('Version 2.3 Deciding on destination at game end')
 
 
 $('#answered').click(function(event){
@@ -32,20 +32,21 @@ $('#answered').click(function(event){
             //if (returned['stop_game']){console.log('value recognised')}
             if (stopper === "yes"){
                 console.log('I have a yes to stop the game')
+                sleep(1500)
                 $('.question').hide()
                 $('#stop_game').hide()
                 $('.jumbotron-heading').html('Your game is finished, Click the <strong>Return to Main</strong> button to start again')
                 $('#return_main').toggleClass('hidden')
-                if (returned['game_type'] === "Set time"){
+
+                if (returned['hi_score'] === "Yes"){
+                    $(window.location).attr('href', '/add_high_score')
+                }else{
                     $(window.location).attr('href', '/leader_board')
                 }
-                if (returned['game_type'] != "Set time"){
-                    $(window.location).attr('href', '/leader_board')
-                }
-                //'Set time'
-                //only if this is the timed 1 minute game goto leaderboard
             }
             //else {console.log('it is still no')}
+
+
         },
         error: function(error){
             console.log('error condition in ajax');

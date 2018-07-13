@@ -21,22 +21,9 @@
                     {% else %}
                         {% if score > 0 %}<h4>Some more practice and you can get on the leader board</h4>{% endif %}
                         <a  href="{{url_for('homepage')}}">Return to Game Menu </a>
-                    {% endif %}
-                <h6 class="leaderboard">
-                    {% for lead in leaders %}
-                       <tr><td>
-                            {{ lead.name }} - {{ lead.CPM }}</br>
-                       </td></tr>
-                    {% endfor %}
-                </h6>
-            <div class="container-fluid">
-                <div class="col-md-12 hidden" id="return_main" >
-                    <a  href="{{url_for('homepage')}}">Return to Game Menu </a>
-                </div>
-            </div>
-            <p></p>
+                    {% endif % }
             </section>
 {% endblock %}
 {% block scripts %}
-        <script src="/static/js/leader.js"></script>
+        <script src="/static/js/leader_new.js"></script>
 {% endblock %}

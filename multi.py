@@ -31,13 +31,13 @@ class Q(object):
             return 'Only whole numbers'
 
 
-class Perf(object):  #is reset when runchallenge is run - so we know the mode
+class Perf(object):  #is reset when new game is started
     def __init__(self,mode):
         self.reset(mode)
 
     def reset(self,mode):
         self.Asked = 0
-        self.QLimit = 20
+        self.QLimit = 5
         self.Start = t.time() #this is in sec
         self.Correct = 0
         self.TStop = t.time() + 60
@@ -47,14 +47,12 @@ class Perf(object):  #is reset when runchallenge is run - so we know the mode
         self.CorrectRate = 0.0
         self.running = True
         self.stats = ''
+        self.hi_score = 'No'
 
 
     def start_stop(self,toggle, mode = None):# toggle on/off, mode='Set questions, Set time'
         if mode:#change to only set mode nothing else
-            #set another method to test if it should stop
-
             return True
-            pass # consider which start condition
         else:
             return False
 

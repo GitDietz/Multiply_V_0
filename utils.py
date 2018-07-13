@@ -25,6 +25,7 @@ def add_high_score(file_name,name,score,no_scores):
         l.pop(0)
         #print(l)
     l.append({'name': name, 'date': str(now), 'CPM': score})
+    l.sort(key=itemgetter('CPM'))
     #print(l)
     write_json_file(file_name,l)
     return l

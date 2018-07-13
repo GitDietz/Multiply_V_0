@@ -1,0 +1,37 @@
+Logic flow 20180710
+
+game.HTML
+    sends answer to /submit_answer
+    /submit_answer
+        get result
+        get next q
+        get stop flag
+        return json to game.html & game_1.js
+    game_1.js
+        requires(stat/reaction/next_question/stop_game)
+        update reaction/stat/next q
+        send to /leader_board
+
+
+MODIFICATION 20180712
+
+game.HTML
+    sends answer to /submit_answer
+    /submit_answer
+        get result
+        get next q
+        get stop flag
+        get leader_add
+        return json to game.html & game_1.js
+    game_1.js
+        requires(stat/reaction/next_question/stop_game/leader_add)
+        update reaction/stat/next q
+        send to
+            /leader_board (if not leader_add)
+            /add_high_score (it leader_add)
+add_high_score
+    add high score name
+    send to /leader_board
+
+other fixes:
+use of the leaderboard name
