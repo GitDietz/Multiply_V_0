@@ -1,0 +1,129 @@
+2018-07-14 09:08:34.604245, Logger initialised
+2018-07-14 09:08:34.990451, Logger initialised
+2018-07-14 09:08:43.856476, Home route entered
+2018-07-14 09:08:46.551846, Route start_game entered with mode = multi_set
+2018-07-14 09:08:52.333517, Answer route entered, Result received as 50
+2018-07-14 09:08:57.612045, Answer route entered, Result received as 50
+2018-07-14 09:09:03.637072, Answer route entered, Result received as 3333
+2018-07-14 09:09:03.802380, Answer route entered, Result received as 
+2018-07-14 09:10:02.395337, Logger initialised
+2018-07-14 09:10:02.719456, Logger initialised
+2018-07-14 09:10:08.873705, Home route entered
+2018-07-14 09:10:12.612829, Route start_game entered with mode = multi_set
+2018-07-14 09:10:15.350677, Answer route entered, Result received as 40
+2018-07-14 09:10:17.834363, Answer route entered, Result received as 33
+2018-07-14 09:10:22.748064, Answer route entered, Result received as 24
+2018-07-14 09:10:24.694889, Answer route entered, Result received as 120
+2018-07-14 09:10:41.375121, Answer route entered, Result received as 72
+2018-07-14 09:10:41.384793, score file is leaders20.json
+2018-07-14 09:10:44.705483, Answer route entered, Result received as 72
+2018-07-14 09:10:44.714275, score file is leaders20.json
+2018-07-14 09:10:53.893246, Answer route entered, Result received as 72
+2018-07-14 09:10:53.902006, score file is leaders20.json
+2018-07-14 09:11:01.777973, Home route entered
+2018-07-14 09:15:47.613002, Route start_game entered with mode = multi_set
+2018-07-14 09:16:34.749599, Logger initialised
+2018-07-14 09:16:35.085194, Logger initialised
+2018-07-14 09:16:37.483658, Route start_game entered with mode = multi_set
+2018-07-14 09:16:50.699107, Answer route entered, Result received as 22
+2018-07-14 09:17:24.227416, Answer route entered, Result received as 6
+2018-07-14 09:17:28.477799, Answer route entered, Result received as 88
+2018-07-14 09:17:31.164520, Answer route entered, Result received as 55
+2018-07-14 09:17:33.770915, Answer route entered, Result received as 16
+2018-07-14 09:17:33.780339, score file is leaders20.json
+2018-07-14 09:20:56.757687, Logger initialised
+2018-07-14 09:20:56.827926, Home route entered
+2018-07-14 09:20:58.728037, Route start_game entered with mode = multi_set
+2018-07-14 09:21:03.380704, Answer route entered, Result received as 13
+2018-07-14 09:21:05.973421, Answer route entered, Result received as 39
+2018-07-14 09:21:07.772658, Answer route entered, Result received as 90
+2018-07-14 09:21:10.433900, Answer route entered, Result received as 56
+2018-07-14 09:21:13.719924, Answer route entered, Result received as 66
+2018-07-14 09:21:16.000822, Answer route entered, Result received as 66
+2018-07-14 09:21:17.755726, Answer route entered, Result received as 66
+2018-07-14 09:21:20.486892, Answer route entered, Result received as 
+2018-07-14 09:26:42.752403, Logger initialised
+2018-07-14 09:26:48.966425, Home route entered
+2018-07-14 09:26:52.448590, Route start_game entered with mode = multi_set
+2018-07-14 09:26:59.006021, Answer route entered, Result received as 72
+2018-07-14 09:27:02.327361, Answer route entered, Result received as 21
+2018-07-14 09:27:09.455584, Answer route entered, Result received as 156
+2018-07-14 09:27:12.664962, Answer route entered, Result received as 18
+2018-07-14 09:27:22.746439, Answer route entered, Result received as 6
+2018-07-14 09:27:22.756101, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 09:29:38.920032, Logger initialised
+2018-07-14 10:57:12.719628, Route start_game entered with mode = multi_set
+2018-07-14 10:57:20.323088, Answer route entered, Result received as 30
+2018-07-14 10:57:25.905703, Answer route entered, Result received as 40
+2018-07-14 10:57:27.660584, Answer route entered, Result received as 29
+2018-07-14 10:57:30.709694, Answer route entered, Result received as 48
+2018-07-14 10:57:34.101669, Answer route entered, Result received as 156
+2018-07-14 10:57:34.110725, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 10:57:45.999628, Logger initialised
+2018-07-14 10:57:46.347361, Logger initialised
+2018-07-14 10:57:50.176400, Route start_game entered with mode = multi_set
+2018-07-14 10:57:55.756199, Answer route entered, Result received as 48
+2018-07-14 10:57:57.918901, Answer route entered, Result received as 339
+2018-07-14 10:57:59.767574, Answer route entered, Result received as 130
+2018-07-14 10:58:01.549209, Answer route entered, Result received as 99
+2018-07-14 10:58:04.653783, Answer route entered, Result received as 65
+2018-07-14 10:58:04.663221, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 10:58:28.913994, Route start_game entered with mode = multi_set
+2018-07-14 10:58:52.843195, Answer route entered, Result received as 36
+2018-07-14 10:58:54.538384, Answer route entered, Result received as 24
+2018-07-14 10:58:56.643921, Answer route entered, Result received as 42
+2018-07-14 10:59:00.745984, Answer route entered, Result received as 91
+2018-07-14 10:59:02.976744, Answer route entered, Result received as 88
+2018-07-14 10:59:02.986081, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:10:50.363618, Home route entered
+2018-07-14 11:10:57.971393, Route start_game entered with mode = multi_set
+2018-07-14 11:11:01.659515, Answer route entered, Result received as 8
+2018-07-14 11:11:03.925506, Answer route entered, Result received as 80
+2018-07-14 11:11:09.570666, Answer route entered, Result received as 52
+2018-07-14 11:11:11.386717, Answer route entered, Result received as 30
+2018-07-14 11:11:14.323840, Answer route entered, Result received as 24
+2018-07-14 11:11:14.325376, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:13:29.551932, Route start_game entered with mode = multi_set
+2018-07-14 11:13:31.900858, Answer route entered, Result received as 34
+2018-07-14 11:13:32.663271, Answer route entered, Result received as 34
+2018-07-14 11:13:33.354543, Answer route entered, Result received as 24
+2018-07-14 11:13:34.146393, Answer route entered, Result received as 44
+2018-07-14 11:13:34.808216, Answer route entered, Result received as 45
+2018-07-14 11:13:34.817479, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:22:00.237734, Home route entered
+2018-07-14 11:22:54.517036, Route start_game entered with mode = multi_set
+2018-07-14 11:22:57.959829, Answer route entered, Result received as 26
+2018-07-14 11:23:00.189550, Answer route entered, Result received as 21
+2018-07-14 11:23:02.067818, Answer route entered, Result received as 77
+2018-07-14 11:23:04.183675, Answer route entered, Result received as 29
+2018-07-14 11:23:05.580956, Answer route entered, Result received as 12
+2018-07-14 11:23:05.590552, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:27:03.763072, Logger initialised
+2018-07-14 11:27:04.127739, Logger initialised
+2018-07-14 11:27:13.230233, Home route entered
+2018-07-14 11:27:14.340829, Route start_game entered with mode = multi_set
+2018-07-14 11:27:16.415327, Answer route entered, Result received as 433
+2018-07-14 11:27:17.018960, Answer route entered, Result received as 34
+2018-07-14 11:27:17.455608, Answer route entered, Result received as 2
+2018-07-14 11:27:17.987863, Answer route entered, Result received as 42
+2018-07-14 11:27:18.591765, Answer route entered, Result received as 2
+2018-07-14 11:27:18.600639, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:27:40.576407, Home route entered
+2018-07-14 11:27:41.664687, Route start_game entered with mode = multi_set
+2018-07-14 11:27:44.585993, Answer route entered, Result received as 3
+2018-07-14 11:27:45.231981, Answer route entered, Result received as 2
+2018-07-14 11:27:46.062184, Answer route entered, Result received as 3
+2018-07-14 11:27:47.134558, Answer route entered, Result received as 4
+2018-07-14 11:27:48.183327, Answer route entered, Result received as 2
+2018-07-14 11:27:48.192600, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:31:14.993200, Home route entered
+2018-07-14 11:31:47.928476, Home route entered
+2018-07-14 11:31:50.511240, Route start_game entered with mode = multi_set
+2018-07-14 11:31:57.097623, Answer route entered, Result received as 4398
+2018-07-14 11:31:58.483689, Answer route entered, Result received as 23
+2018-07-14 11:31:59.623449, Answer route entered, Result received as 2
+2018-07-14 11:32:00.951186, Answer route entered, Result received as 1
+2018-07-14 11:32:02.256930, Answer route entered, Result received as 2
+2018-07-14 11:32:02.266677, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-17 07:58:01.908922, Logger initialised
+2018-07-17 17:07:59.569673, Logger initialised

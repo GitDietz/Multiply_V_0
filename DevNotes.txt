@@ -35,3 +35,9 @@ add_high_score
 
 other fixes:
 use of the leaderboard name
+
+--------------------rubbish collection---------
+
+#the_folder = os.path.dirname(os.path.abspath(__file__))
+#l_file = os.path.join(the_folder,'static/files/leaders.json')
+#l_file_20 = os.path.join(the_folder,'static/files/leaders20.json')

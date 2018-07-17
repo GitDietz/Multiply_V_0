@@ -1,7 +1,8 @@
 import random as Rd
 import time as t
 from datetime import datetime as d
-import csv, os.path
+import csv, os.path, utils
+from operator import itemgetter
 
 class Q(object):
     def __init__(self):
@@ -48,6 +49,8 @@ class Perf(object):  #is reset when new game is started
         self.running = True
         self.stats = ''
         self.hi_score = 'No'
+        self.file = ''
+        self.board_name = ''
 
 
     def start_stop(self,toggle, mode = None):# toggle on/off, mode='Set questions, Set time'
@@ -57,7 +60,7 @@ class Perf(object):  #is reset when new game is started
             return False
 
     def runCheck(self):
-        if self.Driver == 'Set time':
+        if self.Driver == 'multi_time':
             if t.time()>=self.TStop:
                 self.StopNow = True
         else:
@@ -78,6 +81,20 @@ class Perf(object):  #is reset when new game is started
             self.Correct +=1
         self.RecalcRates()
 
+    def is_high_score(self):
+        l = utils.get_score_file(self.Driver)
+        self.file = l[0]
+        self.board_name = l[1]
+        #now add the other content fomr ishighscore in app here toset high or not
+        lead_list = utils.load_list_json(self.file)
+        lead_list.sort(key=itemgetter('CPM'))
+        low_val = l[0]['CPM']
+        lead_list.sort(key=itemgetter('CPM'), reverse=True)
+        if self.CorrectRate > low_val:
+            self.hi_score = 'Yes'
+        else:
+            self.hi_score = 'No'
+        return self.hi_score
 
 def write_results(StatSent,player):
     fname='GameStats.csv'
@@ -91,8 +108,5 @@ def write_results(StatSent,player):
             stat = now.strftime('%Y/%m/%d %H:%M') + \
                    " Here are the stats for " + player + '\n' + StatSent
             f.write(stat +'\n')
-
-
-
 
 # Game1: 20 questions, timed performance

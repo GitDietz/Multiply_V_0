@@ -1,6 +1,10 @@
 
 $(document).ready(function () {
-console.log('Version 2.3 Deciding on destination at game end')
+console.log('Version 2.3 Deciding on destination at game end, fade test 30000')
+
+function clear_redirect(){
+alert('Finished waiting')
+}
 
 
 $('#answered').click(function(event){
@@ -28,15 +32,18 @@ $('#answered').click(function(event){
             if (returned['next_question']){ $('#question').html(returned['next_question']) }
 
             var stopper = returned['stop_game']
-            //console.log(stopper)
+            console.log(stopper)
             //if (returned['stop_game']){console.log('value recognised')}
             if (stopper === "yes"){
                 console.log('I have a yes to stop the game')
-                sleep(1500)
+                $('#return_main').toggleClass('hidden')
+                //setTimeout(clear_redirect,1500)
+
                 $('.question').hide()
                 $('#stop_game').hide()
-                $('.jumbotron-heading').html('Your game is finished, Click the <strong>Return to Main</strong> button to start again')
-                $('#return_main').toggleClass('hidden')
+                $('.jumbotron-heading').html('Moving to leaderboard')
+                $('.jumbotron-heading').fadeOut(30000)
+
 
                 if (returned['hi_score'] === "Yes"){
                     $(window.location).attr('href', '/add_high_score')
