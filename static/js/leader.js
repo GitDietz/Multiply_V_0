@@ -35,12 +35,13 @@ $('#name_given').click(function(event){
             $('.new_name').hide()
             $('.score_header').hide()
            // $('.leaderboard').hide()
-           $('.leaderboard').html(
+           /*$('.leaderboard').html(
            {% for lead in leaders %}
                        <tr><td>
                             {{ lead.name }} - {{ lead.CPM }}</br>
                        </td></tr>
                     {% endfor %})
+              */
             $('#return_main').toggleClass('hidden')
         },
         error: function(error){

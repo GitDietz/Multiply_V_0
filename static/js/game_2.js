@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-console.log('Version 2.3 Deciding on destination at game end, fade test 30000')
+console.log('Version 2.4 redirect to add to board or board')
 
 function clear_redirect(){
 alert('Finished waiting')
@@ -42,11 +42,12 @@ $('#answered').click(function(event){
                 $('.question').hide()
                 $('#stop_game').hide()
                 $('.jumbotron-heading').html('Moving to leaderboard')
-                $('.jumbotron-heading').fadeOut(30000)
+                //$('.jumbotron-heading').fadeOut(30000)
 
 
                 if (returned['hi_score'] === "Yes"){
-                    $(window.location).attr('href', '/add_high_score')
+                    console.log('inside the JS hi score')
+                    $(window.location).attr('href', '/get_new_high_score')
                 }else{
                     $(window.location).attr('href', '/leader_board')
                 }

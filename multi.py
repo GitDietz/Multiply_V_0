@@ -38,12 +38,12 @@ class Perf(object):  #is reset when new game is started
 
     def reset(self,mode):
         self.Asked = 0
-        self.QLimit = 5
+        self.QLimit = 20
         self.Start = t.time() #this is in sec
         self.Correct = 0
         self.TStop = t.time() + 60
-        self.Driver = mode #time=run against set time
-        self.StopNow = False
+        self.Driver = mode
+        self.StopNow = 'no'
         self.AnswerRate = 0.0 # Q/sec
         self.CorrectRate = 0.0
         self.running = True
@@ -51,9 +51,10 @@ class Perf(object):  #is reset when new game is started
         self.hi_score = 'No'
         self.file = ''
         self.board_name = ''
+        self.lead_list = []
+        self.set_leader_board()
 
-
-    def start_stop(self,toggle, mode = None):# toggle on/off, mode='Set questions, Set time'
+    def start_stop(self,toggle, mode = None):
         if mode:#change to only set mode nothing else
             return True
         else:
@@ -62,10 +63,12 @@ class Perf(object):  #is reset when new game is started
     def runCheck(self):
         if self.Driver == 'multi_time':
             if t.time()>=self.TStop:
-                self.StopNow = True
+                self.StopNow = 'yes'
         else:
             if self.Asked >= self.QLimit:
-                self.StopNow = True
+                self.StopNow = 'yes'
+        if self.StopNow == 'yes':
+            self.is_high_score()
 
     def RecalcRates(self):
         self.AnswerRate = round(self.Asked * 60 / (t.time() - self.Start),2)
@@ -81,19 +84,23 @@ class Perf(object):  #is reset when new game is started
             self.Correct +=1
         self.RecalcRates()
 
-    def is_high_score(self):
+    def set_leader_board(self):
         l = utils.get_score_file(self.Driver)
         self.file = l[0]
+        print('file is {}'.format(self.file))
         self.board_name = l[1]
+
+    def is_high_score(self):
+        print('func is_high_scrore starts')
         #now add the other content fomr ishighscore in app here toset high or not
         lead_list = utils.load_list_json(self.file)
         lead_list.sort(key=itemgetter('CPM'))
-        low_val = l[0]['CPM']
+        low_val = lead_list[0]['CPM']
         lead_list.sort(key=itemgetter('CPM'), reverse=True)
+        print(lead_list)
+        self.lead_list = lead_list
         if self.CorrectRate > low_val:
             self.hi_score = 'Yes'
-        else:
-            self.hi_score = 'No'
         return self.hi_score
 
 def write_results(StatSent,player):

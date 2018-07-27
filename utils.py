@@ -9,17 +9,17 @@ def full_name(fname):
     return os.path.join(the_folder, 'static/files/',fname)
 
 def load_list_json(file_name):
-    with open(file_name) as json_data:
+    with open(full_name(file_name)) as json_data:
         return json.load(json_data)
 
 
 def write_json_file(file_name,package):
-    with open(file_name, 'w') as fp:
+    with open(full_name(file_name), 'w') as fp:
         json.dump(package, fp)
     return
 
 def add_high_score(file_name,name,score,no_scores):
-    l = load_list_json(file_name)
+    l = load_list_json(full_name(file_name))
     if len(l) >= no_scores:
         l.sort(key=itemgetter('CPM'))
         #lowest = l[0]        low_val = l[0]['CPM']
