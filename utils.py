@@ -22,18 +22,14 @@ def add_high_score(file_name,name,score,no_scores):
     l = load_list_json(full_name(file_name))
     if len(l) >= no_scores:
         l.sort(key=itemgetter('CPM'))
-        #lowest = l[0]        low_val = l[0]['CPM']
-        #print('direct lowest {}'.format(low_val))
-        #print('first item is ' + str(lowest['CPM']))
         l.pop(0)
     l.append({'name': name, 'date': str(now), 'CPM': score})
-    l.sort(key=itemgetter('CPM'))
+    l.sort(key=itemgetter('CPM'), reverse=True)
     write_json_file(file_name,l)
     return l
 
 def get_score_file(game_name):
     file_list = load_list_json(full_name('config.json'))
-    #print('file is {}'.format(file_list))
     name_l = []
     for f in file_list:
         print(f['game'] + ' file of ' +f['file'])

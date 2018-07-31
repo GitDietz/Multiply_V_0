@@ -392,3 +392,108 @@
 2018-07-27 16:35:16.723745, The 1 Minute X Challenge Leaders is the board name
 2018-07-27 16:35:40.060307, Home route entered
 2018-07-27 16:37:27.609413, Logger initialised
+2018-08-01 07:15:33.014167, Logger initialised
+2018-08-01 07:15:33.372597, Logger initialised
+2018-08-01 07:15:54.395517, Route start_game entered with mode = multi_time
+2018-08-01 07:15:58.673309, Answer route entered, Result received as 77
+2018-08-01 07:16:01.322698, Answer route entered, Result received as 42
+2018-08-01 07:16:05.093288, Answer route entered, Result received as 63
+2018-08-01 07:16:06.832541, Answer route entered, Result received as 5
+2018-08-01 07:16:08.677351, Answer route entered, Result received as 15
+2018-08-01 07:16:12.687077, Answer route entered, Result received as 156
+2018-08-01 07:16:17.306844, Answer route entered, Result received as 32
+2018-08-01 07:16:23.117432, Answer route entered, Result received as 146
+2018-08-01 07:16:33.117812, Answer route entered, Result received as 108
+2018-08-01 07:16:35.055407, Answer route entered, Result received as 40
+2018-08-01 07:16:36.679455, Answer route entered, Result received as 33
+2018-08-01 07:16:39.042653, Answer route entered, Result received as 20
+2018-08-01 07:16:41.325023, Answer route entered, Result received as 30
+2018-08-01 07:16:43.874978, Answer route entered, Result received as 88
+2018-08-01 07:17:00.886935, Answer route entered, Result received as 169
+2018-08-01 07:17:01.028058, get_new_high_score - route entered
+2018-08-01 07:17:07.691129, add_to_leader_board - route entered
+2018-08-01 07:17:07.731256, show leaderboard - route entered
+2018-08-01 07:17:07.731698, The 1 Minute X Challenge Leaders is the board name
+2018-08-01 07:17:19.724013, Home route entered
+2018-08-01 07:17:23.462378, Route start_game entered with mode = multi_set
+2018-08-01 07:17:29.429715, Answer route entered, Result received as 60
+2018-08-01 07:17:31.998047, Answer route entered, Result received as 18
+2018-08-01 07:17:33.682375, Answer route entered, Result received as 88
+2018-08-01 07:17:35.615749, Answer route entered, Result received as 20
+2018-08-01 07:17:37.747089, Answer route entered, Result received as 70
+2018-08-01 07:17:41.279194, Answer route entered, Result received as 65
+2018-08-01 07:17:43.245331, Answer route entered, Result received as 42
+2018-08-01 07:17:49.745557, Answer route entered, Result received as 54
+2018-08-01 07:17:52.473433, Answer route entered, Result received as 144
+2018-08-01 07:17:54.575939, Answer route entered, Result received as 65
+2018-08-01 07:18:02.164565, Answer route entered, Result received as 28
+2018-08-01 07:18:03.869174, Answer route entered, Result received as 10
+2018-08-01 07:18:06.345590, Answer route entered, Result received as 20
+2018-08-01 07:18:08.554752, Answer route entered, Result received as 18
+2018-08-01 07:18:10.499571, Answer route entered, Result received as 99
+2018-08-01 07:18:12.827249, Answer route entered, Result received as 48
+2018-08-01 07:18:14.907798, Answer route entered, Result received as 45
+2018-08-01 07:18:16.183379, Answer route entered, Result received as 2
+2018-08-01 07:18:18.435916, Answer route entered, Result received as 77
+2018-08-01 07:18:19.928917, Answer route entered, Result received as 6
+2018-08-01 07:18:20.011112, get_new_high_score - route entered
+2018-08-01 07:18:26.932106, add_to_leader_board - route entered
+2018-08-01 07:18:26.964084, show leaderboard - route entered
+2018-08-01 07:18:26.964567, The 20 X Question Leaders is the board name
+2018-08-01 07:25:48.424603, Logger initialised
+2018-08-01 07:25:58.864717, Home route entered
+2018-08-01 07:26:03.358525, Route start_game entered with mode = multi_time
+2018-08-01 07:26:06.930855, Answer route entered, Result received as 35
+2018-08-01 07:26:08.895015, Answer route entered, Result received as 64
+2018-08-01 07:26:10.579421, Answer route entered, Result received as 90
+2018-08-01 07:26:12.275578, Answer route entered, Result received as 33
+2018-08-01 07:26:14.076867, Answer route entered, Result received as 60
+2018-08-01 07:26:17.667690, Answer route entered, Result received as 54
+2018-08-01 07:26:20.070168, Answer route entered, Result received as 22
+2018-08-01 07:26:33.277589, Answer route entered, Result received as 27
+2018-08-01 07:26:35.781356, Answer route entered, Result received as 110
+2018-08-01 07:26:40.158885, Answer route entered, Result received as 36
+2018-08-01 07:26:41.741873, Answer route entered, Result received as 11
+2018-08-01 07:26:43.857178, Answer route entered, Result received as 16
+2018-08-01 07:26:46.077657, Answer route entered, Result received as 70
+2018-08-01 07:26:39.276053, Answer route entered, Result received as 32
+2018-08-01 07:26:40.924060, Answer route entered, Result received as 77
+2018-08-01 07:26:45.086034, Answer route entered, Result received as 132
+2018-08-01 07:26:47.813413, Answer route entered, Result received as 40
+2018-08-01 07:26:49.981235, Answer route entered, Result received as 10
+2018-08-01 07:26:55.069235, Answer route entered, Result received as 84
+2018-08-01 07:27:01.315953, Answer route entered, Result received as 108
+2018-08-01 07:27:05.476942, Answer route entered, Result received as 48
+2018-08-01 07:27:05.581298, get_new_high_score - route entered
+2018-08-01 07:27:14.299715, add_to_leader_board - route entered
+2018-08-01 07:27:14.324730, show leaderboard - route entered
+2018-08-01 07:27:14.325030, The 1 Minute X Challenge Leaders is the board name
+2018-08-01 07:31:59.692396, Logger initialised
+2018-08-01 07:32:08.691834, Home route entered
+2018-08-01 07:32:12.531857, Route start_game entered with mode = multi_time
+2018-08-01 07:32:17.683971, Answer route entered, Result received as 120
+2018-08-01 07:32:20.017119, Answer route entered, Result received as 24
+2018-08-01 07:32:21.664622, Answer route entered, Result received as 8
+2018-08-01 07:32:23.835977, Answer route entered, Result received as 156
+2018-08-01 07:32:25.090342, Answer route entered, Result received as 4
+2018-08-01 07:32:26.386317, Answer route entered, Result received as 6
+2018-08-01 07:32:28.197389, Answer route entered, Result received as 66
+2018-08-01 07:32:30.113964, Answer route entered, Result received as 16
+2018-08-01 07:32:31.931085, Answer route entered, Result received as 156
+2018-08-01 07:32:33.275031, Answer route entered, Result received as 6
+2018-08-01 07:32:34.808737, Answer route entered, Result received as 14
+2018-08-01 07:32:38.389112, Answer route entered, Result received as 84
+2018-08-01 07:32:40.524857, Answer route entered, Result received as 40
+2018-08-01 07:32:42.304219, Answer route entered, Result received as 33
+2018-08-01 07:32:45.910012, Answer route entered, Result received as 32
+2018-08-01 07:32:47.562484, Answer route entered, Result received as 22
+2018-08-01 07:32:49.407912, Answer route entered, Result received as 20
+2018-08-01 07:32:50.666082, Answer route entered, Result received as 4
+2018-08-01 07:32:52.731339, Answer route entered, Result received as 16
+2018-08-01 07:32:54.469198, Answer route entered, Result received as 30
+2018-08-01 07:33:08.666590, Answer route entered, Result received as 24
+2018-08-01 07:33:13.523545, Answer route entered, Result received as 72
+2018-08-01 07:33:13.603558, get_new_high_score - route entered
+2018-08-01 07:33:18.704922, add_to_leader_board - route entered
+2018-08-01 07:33:18.724642, show leaderboard - route entered
+2018-08-01 07:33:18.725100, The 1 Minute X Challenge Leaders is the board name

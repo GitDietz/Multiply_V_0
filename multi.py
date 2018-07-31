@@ -87,18 +87,18 @@ class Perf(object):  #is reset when new game is started
     def set_leader_board(self):
         l = utils.get_score_file(self.Driver)
         self.file = l[0]
-        print('file is {}'.format(self.file))
+        #print('file is {}'.format(self.file))
         self.board_name = l[1]
 
     def is_high_score(self):
-        print('func is_high_scrore starts')
+        #print('func is_high_scrore starts')
         #now add the other content fomr ishighscore in app here toset high or not
         lead_list = utils.load_list_json(self.file)
         lead_list.sort(key=itemgetter('CPM'))
         low_val = lead_list[0]['CPM']
-        lead_list.sort(key=itemgetter('CPM'), reverse=True)
-        print(lead_list)
-        self.lead_list = lead_list
+        #lead_list.sort(key=itemgetter('CPM'), reverse=True)
+        #print(lead_list)
+        self.lead_list = lead_list.sort(key=itemgetter('CPM'), reverse=True)
         if self.CorrectRate > low_val:
             self.hi_score = 'Yes'
         return self.hi_score
@@ -115,5 +115,3 @@ def write_results(StatSent,player):
             stat = now.strftime('%Y/%m/%d %H:%M') + \
                    " Here are the stats for " + player + '\n' + StatSent
             f.write(stat +'\n')
-
-# Game1: 20 questions, timed performance

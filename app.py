@@ -10,11 +10,11 @@ app.secret_key = 'aqd123'
 
 theQ = Q()
 myPerform = Perf('multi_set')
-stats = ''
-stop_or_not = 'no'
-hi_score = 'No'
-score_file = ''
-board_name = ''
+#stats = ''
+#stop_or_not = 'no'
+#hi_score = 'No'
+#score_file = ''
+#board_name = ''
 
 
 @app.route('/')
@@ -33,7 +33,7 @@ def start_game(game_mode):
 
 @app.route('/submit_answer', methods = ['POST'])
 def submit_answer():
-    answer = request.form['answer'] #snwer is the key in the json
+    answer = request.form['answer'] #answer is the key in the json
     mylog.add_log('Answer route entered, Result received as ' + answer)
     last_result = theQ.result(answer)
     if theQ.invalid == False:
@@ -54,20 +54,6 @@ def show_leader_board():
     print(myPerform.CorrectRate)
     print(myPerform.file)
     print(myPerform.lead_list)
-    '''
-    score = myPerform.CorrectRate
-    l = utils.load_list_json(score_file)
-    #print(l)
-    l.sort(key=itemgetter('CPM'))
-        #for leader in l:
-        #    print(leader)
-
-    low_val = l[0]['CPM']
-    add_to_list = False
-    l.sort(key=itemgetter('CPM'),reverse = True)
-    if score>low_val:
-        add_to_list = True
-        '''
     mylog.add_log(myPerform.board_name + ' is the board name')
     return render_template('leader_board.html', leaders = myPerform.lead_list,
                            board=myPerform.board_name)
@@ -75,15 +61,10 @@ def show_leader_board():
 
 @app.route('/get_new_high_score')#, methods = ['POST']
 def get_new_high_score(): #No data needed since the score is available in the myPerform
-    mylog.add_log('add_high_score - route entered')
-    #user_name = request.form['user_name']
-    print('score is '+str(myPerform.CorrectRate))
-    #print('The new top score is going to be added : {}'.format(user_name))
-    #l = utils.add_high_score(score_file, user_name, myPerform.CorrectRate, 10)
-    #print(l)
-    #return jsonify({'result': 'Updated','leaders':l})
-    print('Board is = {}'.format(myPerform.board_name))
-    print(myPerform.lead_list)
+    mylog.add_log('get_new_high_score - route entered')
+    #print('score is '+str(myPerform.CorrectRate))
+    #print('Board is = {}'.format(myPerform.board_name))
+    #print(myPerform.lead_list)
     return render_template('add_leader.html',
                            score = myPerform.CorrectRate,
                            board = myPerform.board_name )
@@ -91,27 +72,13 @@ def get_new_high_score(): #No data needed since the score is available in the my
 
 @app.route('/add_to_leader_board', methods = ['POST'])
 def add_to_leader_board():
-    mylog.add_log('add to leaders - route entered')
-    #this will only update the scoreboard and then rout to leaderboard
+    # this will only update the scoreboard and then route to leaderboard
+    mylog.add_log('add_to_leader_board - route entered')
     user_name = request.form['user_name']
     myPerform.lead_list = utils.add_high_score(myPerform.file,user_name,
                                                myPerform.CorrectRate,10)
     print(myPerform.lead_list)
-    #return redirect(url_for('show_leader_board'))
-    #rebuild to return jason on Ajax call that the page will then redirect to the leaderboard
     return jsonify({'result': 'Name added'})
-
-
-@app.route('/add_to_leader_board_orgin')
-def add_to_leader_board_orgin():
-    mylog.add_log('add to leaders - Old route entered')
-    #this will only update the scoreboard and then rout to leaderboard
-    user_name = request.form['user_name']
-    myPerform.lead_list = utils.add_high_score(myPerform.file,
-                                               myPerform.CorrectRate,10)
-    print(myPerform.lead_list)
-    return redirect(url_for('show_leader_board'))
-
 
 @app.errorhandler(404)
 def page_not_found(error):
@@ -120,4 +87,3 @@ def page_not_found(error):
 
 if __name__ == "__main__":
     app.run(port=4900, debug=True)
-#https://codereview.stackexchange.com/questions/69570/insert-json-data-into-rendered-template-after-ajax-call
