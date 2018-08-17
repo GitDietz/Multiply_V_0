@@ -1,6 +1,7 @@
 from flask import Flask,url_for, render_template, session, redirect, request, g, jsonify
 import logger as log, json
-from multi import Q,Perf
+from multi import Q
+from game_control import Perf
 from operator import itemgetter
 import utils, os
 
@@ -10,11 +11,6 @@ app.secret_key = 'aqd123'
 
 theQ = Q()
 myPerform = Perf('multi_set')
-#stats = ''
-#stop_or_not = 'no'
-#hi_score = 'No'
-#score_file = ''
-#board_name = ''
 
 
 @app.route('/')
@@ -24,12 +20,23 @@ def homepage():
 
 @app.route('/start_game/<game_mode>')
 def start_game(game_mode):
+    #add validation to ensure only valid options are passed
     mylog.add_log('Route start_game entered with mode = ' + game_mode)
-    print('We\'re going for ' + game_mode)
+    #print('We\'re going for ' + game_mode)
     theQ.reset()
     myPerform.reset(game_mode)
     return render_template('game.html', question = theQ.q)
 
+
+@app.route('/show_lb_direct/<game_mode>') #direct access to the leader board without plauying the game
+def show_lb_direct(game_mode):
+    mylog.add_log('direct leaderboard - route entered')
+    myPerform.reset(game_mode)
+    #mylog.add_log(myPerform.board_name + ' is the board name')
+    myPerform.get_lead_list()
+    leaders = myPerform.lead_list
+    return render_template('leader_board.html', leaders = leaders,
+                           board = myPerform.board_name)
 
 @app.route('/submit_answer', methods = ['POST'])
 def submit_answer():
@@ -51,12 +58,14 @@ def submit_answer():
 @app.route('/leader_board')
 def show_leader_board():
     mylog.add_log('show leaderboard - route entered')
-    print(myPerform.CorrectRate)
-    print(myPerform.file)
-    print(myPerform.lead_list)
-    mylog.add_log(myPerform.board_name + ' is the board name')
+    #print(myPerform.CorrectRate)
+    #print(myPerform.file)
+    #print(myPerform.lead_list)
+    #mylog.add_log(myPerform.board_name + ' is the board name')
     return render_template('leader_board.html', leaders = myPerform.lead_list,
                            board=myPerform.board_name)
+
+
 
 
 @app.route('/get_new_high_score')#, methods = ['POST']
