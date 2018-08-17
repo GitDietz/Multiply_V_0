@@ -2,7 +2,6 @@
 $(document).ready(function () {
 console.log('Version 1.2')
 
-
 //name_given is the button name
 $('#name_given').click(function(event){
 
@@ -19,8 +18,6 @@ $('#name_given').click(function(event){
     user_name = request.form['user_name']
     */
 
-
-
     $.ajax({
         url: '/add_high_score',
         dataType : 'text',
@@ -30,12 +27,21 @@ $('#name_given').click(function(event){
             console.log('returned from flask after name addition');
             console.log(response);
             var returned = JSON.parse(response);
+            var leaders = returned['leaders']
 
             //console.log(returned['result']);
             //plan check response is indicating correct and then change elements else repeat
             $('#update_instruction').html('Welcome to the leaderboard!');
             $('.new_name').hide()
-            $('.leaderboard').hide()
+            $('.score_header').hide()
+           // $('.leaderboard').hide()
+           /*$('.leaderboard').html(
+           {% for lead in leaders %}
+                       <tr><td>
+                            {{ lead.name }} - {{ lead.CPM }}</br>
+                       </td></tr>
+                    {% endfor %})
+              */
             $('#return_main').toggleClass('hidden')
         },
         error: function(error){

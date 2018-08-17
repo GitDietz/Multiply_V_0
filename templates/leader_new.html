@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block main %}
+            <section class="jumbotron text-center">
+                <h1 class="jumbotron-heading">The Top Scores</h1>
+                <h2> Most correctly answered questions per minute </h2>
+                <p>{% if score > 0 %}
+                <div class="score_header">You scored {{score}}</div>{% endif %}
+                </p>
+                    {% if add_to_list %}
+                        <h4 id="update_instruction"> Well Done, Add your name to the list!</h4>
+                            <form class="new_name">
+                                <div class="row justify-content-center is-md-table-row">
+                                    <div class="col-md-2 mb-3">
+                                        <input type="text" class="form-control" id="the_name" placeholder="Your name" value="" required>
+                                    </div>
+                                    <div class="col-md-2 mb-3">
+                                        <button class="btn btn-primary btn-sm" id="name_given" type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                    {% else %}
+                        {% if score > 0 %}<h4>Some more practice and you can get on the leader board</h4>{% endif %}
+                        <a  href="{{url_for('homepage')}}">Return to Game Menu </a>
+                    {% endif % }
+            </section>
+{% endblock %}
+{% block scripts %}
+        <script src="/static/js/leader_new.js"></script>
+{% endblock %}

@@ -1,6 +1,10 @@
 
 $(document).ready(function () {
-console.log('Version 2.2')
+console.log('Version 2.4 redirect to add to board or board')
+
+function clear_redirect(){
+alert('Finished waiting')
+}
 
 
 $('#answered').click(function(event){
@@ -28,24 +32,29 @@ $('#answered').click(function(event){
             if (returned['next_question']){ $('#question').html(returned['next_question']) }
 
             var stopper = returned['stop_game']
-            //console.log(stopper)
+            console.log(stopper)
             //if (returned['stop_game']){console.log('value recognised')}
             if (stopper === "yes"){
                 console.log('I have a yes to stop the game')
+                $('#return_main').toggleClass('hidden')
+                //setTimeout(clear_redirect,1500)
+
                 $('.question').hide()
                 $('#stop_game').hide()
-                $('.jumbotron-heading').html('Your game is finished, Click the <strong>Return to Main</strong> button to start again')
-                $('#return_main').toggleClass('hidden')
-                if (returned['game_type'] === "Set time"){
+                $('.jumbotron-heading').html('Moving to leaderboard')
+                //$('.jumbotron-heading').fadeOut(30000)
+
+
+                if (returned['hi_score'] === "Yes"){
+                    console.log('inside the JS hi score')
+                    $(window.location).attr('href', '/get_new_high_score')
+                }else{
                     $(window.location).attr('href', '/leader_board')
                 }
-                if (returned['game_type'] != "Set time"){
-                    $(window.location).attr('href', '/leader_board')
-                }
-                //'Set time'
-                //only if this is the timed 1 minute game goto leaderboard
             }
             //else {console.log('it is still no')}
+
+
         },
         error: function(error){
             console.log('error condition in ajax');

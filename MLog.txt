@@ -1,0 +1,688 @@
+2018-07-14 09:08:34.604245, Logger initialised
+2018-07-14 09:08:34.990451, Logger initialised
+2018-07-14 09:08:43.856476, Home route entered
+2018-07-14 09:08:46.551846, Route start_game entered with mode = multi_set
+2018-07-14 09:08:52.333517, Answer route entered, Result received as 50
+2018-07-14 09:08:57.612045, Answer route entered, Result received as 50
+2018-07-14 09:09:03.637072, Answer route entered, Result received as 3333
+2018-07-14 09:09:03.802380, Answer route entered, Result received as 
+2018-07-14 09:10:02.395337, Logger initialised
+2018-07-14 09:10:02.719456, Logger initialised
+2018-07-14 09:10:08.873705, Home route entered
+2018-07-14 09:10:12.612829, Route start_game entered with mode = multi_set
+2018-07-14 09:10:15.350677, Answer route entered, Result received as 40
+2018-07-14 09:10:17.834363, Answer route entered, Result received as 33
+2018-07-14 09:10:22.748064, Answer route entered, Result received as 24
+2018-07-14 09:10:24.694889, Answer route entered, Result received as 120
+2018-07-14 09:10:41.375121, Answer route entered, Result received as 72
+2018-07-14 09:10:41.384793, score file is leaders20.json
+2018-07-14 09:10:44.705483, Answer route entered, Result received as 72
+2018-07-14 09:10:44.714275, score file is leaders20.json
+2018-07-14 09:10:53.893246, Answer route entered, Result received as 72
+2018-07-14 09:10:53.902006, score file is leaders20.json
+2018-07-14 09:11:01.777973, Home route entered
+2018-07-14 09:15:47.613002, Route start_game entered with mode = multi_set
+2018-07-14 09:16:34.749599, Logger initialised
+2018-07-14 09:16:35.085194, Logger initialised
+2018-07-14 09:16:37.483658, Route start_game entered with mode = multi_set
+2018-07-14 09:16:50.699107, Answer route entered, Result received as 22
+2018-07-14 09:17:24.227416, Answer route entered, Result received as 6
+2018-07-14 09:17:28.477799, Answer route entered, Result received as 88
+2018-07-14 09:17:31.164520, Answer route entered, Result received as 55
+2018-07-14 09:17:33.770915, Answer route entered, Result received as 16
+2018-07-14 09:17:33.780339, score file is leaders20.json
+2018-07-14 09:20:56.757687, Logger initialised
+2018-07-14 09:20:56.827926, Home route entered
+2018-07-14 09:20:58.728037, Route start_game entered with mode = multi_set
+2018-07-14 09:21:03.380704, Answer route entered, Result received as 13
+2018-07-14 09:21:05.973421, Answer route entered, Result received as 39
+2018-07-14 09:21:07.772658, Answer route entered, Result received as 90
+2018-07-14 09:21:10.433900, Answer route entered, Result received as 56
+2018-07-14 09:21:13.719924, Answer route entered, Result received as 66
+2018-07-14 09:21:16.000822, Answer route entered, Result received as 66
+2018-07-14 09:21:17.755726, Answer route entered, Result received as 66
+2018-07-14 09:21:20.486892, Answer route entered, Result received as 
+2018-07-14 09:26:42.752403, Logger initialised
+2018-07-14 09:26:48.966425, Home route entered
+2018-07-14 09:26:52.448590, Route start_game entered with mode = multi_set
+2018-07-14 09:26:59.006021, Answer route entered, Result received as 72
+2018-07-14 09:27:02.327361, Answer route entered, Result received as 21
+2018-07-14 09:27:09.455584, Answer route entered, Result received as 156
+2018-07-14 09:27:12.664962, Answer route entered, Result received as 18
+2018-07-14 09:27:22.746439, Answer route entered, Result received as 6
+2018-07-14 09:27:22.756101, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 09:29:38.920032, Logger initialised
+2018-07-14 10:57:12.719628, Route start_game entered with mode = multi_set
+2018-07-14 10:57:20.323088, Answer route entered, Result received as 30
+2018-07-14 10:57:25.905703, Answer route entered, Result received as 40
+2018-07-14 10:57:27.660584, Answer route entered, Result received as 29
+2018-07-14 10:57:30.709694, Answer route entered, Result received as 48
+2018-07-14 10:57:34.101669, Answer route entered, Result received as 156
+2018-07-14 10:57:34.110725, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 10:57:45.999628, Logger initialised
+2018-07-14 10:57:46.347361, Logger initialised
+2018-07-14 10:57:50.176400, Route start_game entered with mode = multi_set
+2018-07-14 10:57:55.756199, Answer route entered, Result received as 48
+2018-07-14 10:57:57.918901, Answer route entered, Result received as 339
+2018-07-14 10:57:59.767574, Answer route entered, Result received as 130
+2018-07-14 10:58:01.549209, Answer route entered, Result received as 99
+2018-07-14 10:58:04.653783, Answer route entered, Result received as 65
+2018-07-14 10:58:04.663221, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 10:58:28.913994, Route start_game entered with mode = multi_set
+2018-07-14 10:58:52.843195, Answer route entered, Result received as 36
+2018-07-14 10:58:54.538384, Answer route entered, Result received as 24
+2018-07-14 10:58:56.643921, Answer route entered, Result received as 42
+2018-07-14 10:59:00.745984, Answer route entered, Result received as 91
+2018-07-14 10:59:02.976744, Answer route entered, Result received as 88
+2018-07-14 10:59:02.986081, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:10:50.363618, Home route entered
+2018-07-14 11:10:57.971393, Route start_game entered with mode = multi_set
+2018-07-14 11:11:01.659515, Answer route entered, Result received as 8
+2018-07-14 11:11:03.925506, Answer route entered, Result received as 80
+2018-07-14 11:11:09.570666, Answer route entered, Result received as 52
+2018-07-14 11:11:11.386717, Answer route entered, Result received as 30
+2018-07-14 11:11:14.323840, Answer route entered, Result received as 24
+2018-07-14 11:11:14.325376, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:13:29.551932, Route start_game entered with mode = multi_set
+2018-07-14 11:13:31.900858, Answer route entered, Result received as 34
+2018-07-14 11:13:32.663271, Answer route entered, Result received as 34
+2018-07-14 11:13:33.354543, Answer route entered, Result received as 24
+2018-07-14 11:13:34.146393, Answer route entered, Result received as 44
+2018-07-14 11:13:34.808216, Answer route entered, Result received as 45
+2018-07-14 11:13:34.817479, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:22:00.237734, Home route entered
+2018-07-14 11:22:54.517036, Route start_game entered with mode = multi_set
+2018-07-14 11:22:57.959829, Answer route entered, Result received as 26
+2018-07-14 11:23:00.189550, Answer route entered, Result received as 21
+2018-07-14 11:23:02.067818, Answer route entered, Result received as 77
+2018-07-14 11:23:04.183675, Answer route entered, Result received as 29
+2018-07-14 11:23:05.580956, Answer route entered, Result received as 12
+2018-07-14 11:23:05.590552, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:27:03.763072, Logger initialised
+2018-07-14 11:27:04.127739, Logger initialised
+2018-07-14 11:27:13.230233, Home route entered
+2018-07-14 11:27:14.340829, Route start_game entered with mode = multi_set
+2018-07-14 11:27:16.415327, Answer route entered, Result received as 433
+2018-07-14 11:27:17.018960, Answer route entered, Result received as 34
+2018-07-14 11:27:17.455608, Answer route entered, Result received as 2
+2018-07-14 11:27:17.987863, Answer route entered, Result received as 42
+2018-07-14 11:27:18.591765, Answer route entered, Result received as 2
+2018-07-14 11:27:18.600639, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:27:40.576407, Home route entered
+2018-07-14 11:27:41.664687, Route start_game entered with mode = multi_set
+2018-07-14 11:27:44.585993, Answer route entered, Result received as 3
+2018-07-14 11:27:45.231981, Answer route entered, Result received as 2
+2018-07-14 11:27:46.062184, Answer route entered, Result received as 3
+2018-07-14 11:27:47.134558, Answer route entered, Result received as 4
+2018-07-14 11:27:48.183327, Answer route entered, Result received as 2
+2018-07-14 11:27:48.192600, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-14 11:31:14.993200, Home route entered
+2018-07-14 11:31:47.928476, Home route entered
+2018-07-14 11:31:50.511240, Route start_game entered with mode = multi_set
+2018-07-14 11:31:57.097623, Answer route entered, Result received as 4398
+2018-07-14 11:31:58.483689, Answer route entered, Result received as 23
+2018-07-14 11:31:59.623449, Answer route entered, Result received as 2
+2018-07-14 11:32:00.951186, Answer route entered, Result received as 1
+2018-07-14 11:32:02.256930, Answer route entered, Result received as 2
+2018-07-14 11:32:02.266677, score file is /Users/dieterthierry/Dropbox/Workspace/Multiply_V_0/static/files/leaders20.json
+2018-07-17 07:58:01.908922, Logger initialised
+2018-07-17 17:07:59.569673, Logger initialised
+2018-07-17 17:29:04.011654, Logger initialised
+2018-07-18 17:01:34.505016, Logger initialised
+2018-07-18 17:01:34.921890, Logger initialised
+2018-07-18 17:01:49.658602, Home route entered
+2018-07-18 17:01:53.854612, Route start_game entered with mode = multi_set
+2018-07-18 17:01:56.974255, Answer route entered, Result received as 99
+2018-07-18 17:01:58.661713, Answer route entered, Result received as 88
+2018-07-18 17:02:01.530195, Answer route entered, Result received as 49
+2018-07-18 17:02:03.695444, Answer route entered, Result received as 81
+2018-07-18 17:02:04.952307, Answer route entered, Result received as 4
+2018-07-18 17:05:35.489124, Logger initialised
+2018-07-18 17:06:50.555852, Home route entered
+2018-07-18 17:06:52.523918, Route start_game entered with mode = multi_set
+2018-07-18 17:06:55.574451, Answer route entered, Result received as 120
+2018-07-18 17:07:01.554927, Answer route entered, Result received as 36
+2018-07-18 17:07:03.863990, Answer route entered, Result received as 65
+2018-07-18 17:07:05.848640, Answer route entered, Result received as 70
+2018-07-18 17:07:07.972739, Answer route entered, Result received as 60
+2018-07-18 17:07:08.019652, show leaderboard - route entered
+2018-07-18 17:09:47.100773, show leaderboard - route entered
+2018-07-18 17:10:28.654765, show leaderboard - route entered
+2018-07-18 17:13:00.226592, Logger initialised
+2018-07-18 17:14:08.943624, Home route entered
+2018-07-18 17:14:12.191825, Route start_game entered with mode = multi_set
+2018-07-18 17:14:15.795768, Answer route entered, Result received as 130
+2018-07-18 17:14:17.289324, Answer route entered, Result received as 120
+2018-07-18 17:14:24.090436, Answer route entered, Result received as 72
+2018-07-18 17:14:26.200630, Answer route entered, Result received as 40
+2018-07-18 17:14:26.796459, Answer route entered, Result received as 24
+2018-07-18 17:14:26.936506, show leaderboard - route entered
+2018-07-18 17:15:50.491690, Logger initialised
+2018-07-18 17:15:50.812474, Logger initialised
+2018-07-18 17:15:56.675639, Home route entered
+2018-07-18 17:16:11.780149, Route start_game entered with mode = multi_set
+2018-07-18 17:16:16.540281, Answer route entered, Result received as 100
+2018-07-18 17:16:19.925866, Answer route entered, Result received as 16
+2018-07-18 17:16:21.708096, Answer route entered, Result received as 65
+2018-07-18 17:16:24.722774, Answer route entered, Result received as 25
+2018-07-18 17:16:26.786323, Answer route entered, Result received as 6
+2018-07-18 17:16:26.886246, show leaderboard - route entered
+2018-07-18 17:19:51.593628, Logger initialised
+2018-07-18 17:19:51.931773, Logger initialised
+2018-07-18 17:19:58.589863, Home route entered
+2018-07-18 17:20:01.083479, Route start_game entered with mode = multi_set
+2018-07-18 17:20:04.584156, Answer route entered, Result received as 65
+2018-07-18 17:20:05.947583, Answer route entered, Result received as 13
+2018-07-18 17:20:07.402798, Answer route entered, Result received as 44
+2018-07-18 17:20:10.302154, Answer route entered, Result received as 65
+2018-07-18 17:20:15.873724, Answer route entered, Result received as 117
+2018-07-18 17:20:15.993065, show leaderboard - route entered
+2018-07-18 17:20:16.002670,  is the boar name
+2018-07-18 17:25:07.467155, Logger initialised
+2018-07-19 17:20:04.980041, Logger initialised
+2018-07-19 17:21:23.092626, Logger initialised
+2018-07-19 17:21:23.471609, Logger initialised
+2018-07-19 17:22:07.409605, Home route entered
+2018-07-19 17:22:24.641037, Route start_game entered with mode = multi_set
+2018-07-19 17:22:30.184754, Answer route entered, Result received as 146
+2018-07-19 17:22:32.287222, Answer route entered, Result received as 12
+2018-07-19 17:22:34.222228, Answer route entered, Result received as 16
+2018-07-19 17:22:38.474862, Answer route entered, Result received as 63
+2018-07-19 17:22:40.558808, Answer route entered, Result received as 81
+2018-07-19 17:22:40.597463, show leaderboard - route entered
+2018-07-19 17:22:40.597864, The 20 X Question Leaders is the boar name
+2018-07-19 17:30:07.312090, Logger initialised
+2018-07-19 17:31:36.550562, Home route entered
+2018-07-19 17:31:39.814604, Route start_game entered with mode = multi_set
+2018-07-19 17:31:55.788780, Answer route entered, Result received as 10
+2018-07-19 17:32:09.860864, Answer route entered, Result received as 80
+2018-07-19 17:32:36.145262, Answer route entered, Result received as 16
+2018-07-19 17:32:52.923189, Answer route entered, Result received as 12
+2018-07-19 17:32:56.498487, Answer route entered, Result received as 36
+2018-07-19 17:32:56.567713, show leaderboard - route entered
+2018-07-19 17:32:56.568129, The 20 X Question Leaders is the boar name
+2018-07-19 17:33:13.216670, Home route entered
+2018-07-19 17:33:15.392798, Route start_game entered with mode = multi_set
+2018-07-19 17:33:35.411404, Answer route entered, Result received as 40
+2018-07-19 17:33:37.513825, Answer route entered, Result received as 99
+2018-07-19 17:33:40.237083, Answer route entered, Result received as 120
+2018-07-19 17:33:42.575907, Answer route entered, Result received as 66
+2018-07-19 17:33:44.798872, Answer route entered, Result received as 25
+2018-07-19 17:33:44.845337, show leaderboard - route entered
+2018-07-19 17:33:44.845766, The 20 X Question Leaders is the boar name
+2018-07-19 17:40:58.262575, Logger initialised
+2018-07-19 17:40:58.575401, Logger initialised
+2018-07-19 17:41:07.453400, Home route entered
+2018-07-19 17:41:09.755239, Route start_game entered with mode = multi_set
+2018-07-19 17:41:13.857602, Answer route entered, Result received as 66
+2018-07-19 17:41:16.015029, Answer route entered, Result received as 56
+2018-07-19 17:41:18.406261, Answer route entered, Result received as 5
+2018-07-19 17:41:20.447078, Answer route entered, Result received as 10
+2018-07-19 17:41:22.725478, Answer route entered, Result received as 65
+2018-07-19 17:41:26.400628, Answer route entered, Result received as 65
+2018-07-19 17:41:30.551037, Answer route entered, Result received as 65
+2018-07-19 17:44:08.837809, Logger initialised
+2018-07-19 17:44:14.340177, Logger initialised
+2018-07-19 17:44:14.649148, Logger initialised
+2018-07-20 16:12:12.626730, Home route entered
+2018-07-20 16:12:21.660785, Route start_game entered with mode = multi_set
+2018-07-20 16:12:24.301116, Answer route entered, Result received as 40
+2018-07-20 16:12:29.206084, Answer route entered, Result received as 30
+2018-07-20 16:12:37.486463, Answer route entered, Result received as 78
+2018-07-20 16:12:39.368699, Answer route entered, Result received as 7
+2018-07-20 16:12:41.379679, Answer route entered, Result received as 99
+2018-07-20 16:16:15.811683, Home route entered
+2018-07-20 16:16:18.355866, Route start_game entered with mode = multi_set
+2018-07-20 16:16:22.775815, Answer route entered, Result received as 156
+2018-07-20 16:16:25.650873, Answer route entered, Result received as 8
+2018-07-20 16:16:26.828342, Answer route entered, Result received as 22
+2018-07-20 16:16:28.631199, Answer route entered, Result received as 18
+2018-07-20 16:16:31.866985, Answer route entered, Result received as 45
+2018-07-20 16:17:20.371772, Logger initialised
+2018-07-20 16:17:27.499635, add to leaders - route entered
+2018-07-20 16:19:51.416951, add to leaders - route entered
+2018-07-20 16:19:55.629885, Home route entered
+2018-07-20 16:20:13.694031, Home route entered
+2018-07-20 16:20:15.293526, Route start_game entered with mode = multi_set
+2018-07-20 16:20:18.123772, Answer route entered, Result received as 40
+2018-07-20 16:20:19.947171, Answer route entered, Result received as 81
+2018-07-20 16:20:21.430079, Answer route entered, Result received as 66
+2018-07-20 16:20:25.507830, Answer route entered, Result received as 52
+2018-07-20 16:20:28.114341, Answer route entered, Result received as 28
+2018-07-20 16:21:02.376081, Logger initialised
+2018-07-20 16:21:09.655457, Home route entered
+2018-07-20 16:21:11.037277, Route start_game entered with mode = multi_set
+2018-07-20 16:21:13.677976, Answer route entered, Result received as 60
+2018-07-20 16:21:14.924672, Answer route entered, Result received as 21
+2018-07-20 16:21:16.996429, Answer route entered, Result received as 14
+2018-07-20 16:21:18.982232, Answer route entered, Result received as 24
+2018-07-20 16:21:20.628870, Answer route entered, Result received as 55
+2018-07-20 16:21:20.659807, add_high_score - route entered
+2018-07-20 16:26:42.271723, Logger initialised
+2018-07-20 16:26:53.486793, Home route entered
+2018-07-20 16:26:56.679596, Route start_game entered with mode = multi_set
+2018-07-20 16:26:59.098656, Answer route entered, Result received as 2
+2018-07-20 16:27:00.147706, Answer route entered, Result received as 12
+2018-07-20 16:27:01.902210, Answer route entered, Result received as 77
+2018-07-20 16:27:05.601777, Answer route entered, Result received as 96
+2018-07-20 16:27:07.456613, Answer route entered, Result received as 36
+2018-07-20 16:27:07.484119, add_high_score - route entered
+2018-07-20 16:32:31.478196, Home route entered
+2018-07-20 16:32:34.302704, Route start_game entered with mode = multi_set
+2018-07-20 16:32:36.903800, Answer route entered, Result received as 435
+2018-07-20 16:32:38.453576, Answer route entered, Result received as 42
+2018-07-20 16:32:40.935237, Answer route entered, Result received as 60
+2018-07-20 16:32:42.310488, Answer route entered, Result received as 6
+2018-07-20 16:32:44.039037, Answer route entered, Result received as 24
+2018-07-20 16:32:44.072784, add_high_score - route entered
+2018-07-20 16:37:42.007262, Logger initialised
+2018-07-20 16:37:54.336691, Home route entered
+2018-07-20 16:37:58.118461, Route start_game entered with mode = multi_set
+2018-07-20 16:38:05.015444, Answer route entered, Result received as 32
+2018-07-20 16:38:06.094965, Answer route entered, Result received as 3
+2018-07-20 16:38:07.694339, Answer route entered, Result received as 35
+2018-07-20 16:38:09.472712, Answer route entered, Result received as 24
+2018-07-20 16:38:10.898688, Answer route entered, Result received as 2
+2018-07-20 16:38:10.929394, add_high_score - route entered
+2018-07-20 16:41:07.805253, Logger initialised
+2018-07-20 16:43:52.001673, Logger initialised
+2018-07-20 16:44:01.516298, Home route entered
+2018-07-20 16:44:03.844858, Route start_game entered with mode = multi_set
+2018-07-20 16:44:06.166998, Answer route entered, Result received as 42
+2018-07-20 16:44:07.941507, Answer route entered, Result received as 24
+2018-07-20 16:44:09.208106, Answer route entered, Result received as 33
+2018-07-20 16:44:11.662464, Answer route entered, Result received as 48
+2018-07-20 16:44:12.917615, Answer route entered, Result received as 3
+2018-07-20 16:45:17.300713, add_high_score - route entered
+2018-07-20 16:45:27.604008, add to leaders - route entered
+2018-07-22 17:16:16.538516, Home route entered
+2018-07-22 17:16:16.841776, Home route entered
+2018-07-24 07:42:10.119689, Logger initialised
+2018-07-24 07:42:10.597967, Logger initialised
+2018-07-24 07:42:16.822406, Home route entered
+2018-07-24 07:42:17.126092, Home route entered
+2018-07-24 07:42:18.093977, add to leaders - route entered
+2018-07-24 07:42:20.782785, Home route entered
+2018-07-24 07:42:30.819357, Route start_game entered with mode = multi_set
+2018-07-24 07:42:33.546032, Answer route entered, Result received as 6
+2018-07-24 07:42:39.104872, Answer route entered, Result received as 108
+2018-07-24 07:42:50.372964, Answer route entered, Result received as 72
+2018-07-24 07:42:54.107516, Answer route entered, Result received as 56
+2018-07-24 07:42:56.420983, Answer route entered, Result received as 44
+2018-07-24 07:42:56.513723, add_high_score - route entered
+2018-07-24 07:43:03.825624, add to leaders - route entered
+2018-07-24 07:57:20.450435, Logger initialised
+2018-07-27 16:18:22.907156, Logger initialised
+2018-07-27 16:18:29.629704, Home route entered
+2018-07-27 16:18:30.726583, Home route entered
+2018-07-27 16:18:33.230981, Route start_game entered with mode = multi_set
+2018-07-27 16:18:37.319340, Answer route entered, Result received as 56
+2018-07-27 16:18:39.514956, Answer route entered, Result received as 88
+2018-07-27 16:18:41.376604, Answer route entered, Result received as 100
+2018-07-27 16:18:45.284768, Answer route entered, Result received as 84
+2018-07-27 16:18:49.390459, Answer route entered, Result received as 117
+2018-07-27 16:18:49.483587, add_high_score - route entered
+2018-07-27 16:23:09.939069, Logger initialised
+2018-07-27 16:23:10.273716, Logger initialised
+2018-07-27 16:23:19.112944, Home route entered
+2018-07-27 16:24:38.550875, Route start_game entered with mode = multi_set
+2018-07-27 16:24:43.787020, Answer route entered, Result received as 10
+2018-07-27 16:24:50.380574, Answer route entered, Result received as 110
+2018-07-27 16:24:52.476139, Answer route entered, Result received as 35
+2018-07-27 16:24:56.954727, Answer route entered, Result received as 156
+2018-07-27 16:24:59.624497, Answer route entered, Result received as 36
+2018-07-27 16:24:59.718446, add_high_score - route entered
+2018-07-27 16:26:48.033647, Logger initialised
+2018-07-27 16:29:11.946855, add_high_score - route entered
+2018-07-27 16:29:20.859147, Home route entered
+2018-07-27 16:29:25.690203, Route start_game entered with mode = multi_set
+2018-07-27 16:29:28.263298, Answer route entered, Result received as 4
+2018-07-27 16:29:30.499794, Answer route entered, Result received as 80
+2018-07-27 16:29:32.065530, Answer route entered, Result received as 9
+2018-07-27 16:29:33.480688, Answer route entered, Result received as 20
+2018-07-27 16:29:34.835186, Answer route entered, Result received as 90
+2018-07-27 16:29:34.920648, add_high_score - route entered
+2018-07-27 16:30:05.062313, Home route entered
+2018-07-27 16:30:10.617703, Route start_game entered with mode = multi_set
+2018-07-27 16:30:13.229409, Answer route entered, Result received as 45
+2018-07-27 16:30:17.388583, Answer route entered, Result received as 18
+2018-07-27 16:30:21.668281, Answer route entered, Result received as 91
+2018-07-27 16:30:23.452932, Answer route entered, Result received as 77
+2018-07-27 16:30:25.194951, Answer route entered, Result received as 18
+2018-07-27 16:30:25.278424, add_high_score - route entered
+2018-07-27 16:30:29.553334, add to leaders - route entered
+2018-07-27 16:30:40.238823, Home route entered
+2018-07-27 16:30:40.292764, Home route entered
+2018-07-27 16:32:37.729634, Logger initialised
+2018-07-27 16:32:40.436115, add to leaders - route entered
+2018-07-27 16:32:40.453535, show leaderboard - route entered
+2018-07-27 16:32:40.453913, The 20 X Question Leaders is the board name
+2018-07-27 16:33:11.358177, Home route entered
+2018-07-27 16:33:12.783917, Route start_game entered with mode = multi_set
+2018-07-27 16:33:30.207514, Answer route entered, Result received as 30
+2018-07-27 16:33:32.610971, Answer route entered, Result received as 11
+2018-07-27 16:33:27.441521, Answer route entered, Result received as 49
+2018-07-27 16:33:28.877884, Answer route entered, Result received as 0
+2018-07-27 16:33:29.722613, Answer route entered, Result received as 2
+2018-07-27 16:33:29.803877, add_high_score - route entered
+2018-07-27 16:33:41.608741, add to leaders - route entered
+2018-07-27 16:33:41.632857, show leaderboard - route entered
+2018-07-27 16:33:41.633243, The 20 X Question Leaders is the board name
+2018-07-27 16:33:56.601957, Home route entered
+2018-07-27 16:33:58.136700, Route start_game entered with mode = multi_time
+2018-07-27 16:34:01.452407, Answer route entered, Result received as 130
+2018-07-27 16:34:04.783006, Answer route entered, Result received as 16
+2018-07-27 16:34:17.058221, Answer route entered, Result received as 84
+2018-07-27 16:34:20.020185, Answer route entered, Result received as 24
+2018-07-27 16:34:22.575974, Answer route entered, Result received as 35
+2018-07-27 16:34:25.960658, Answer route entered, Result received as 4
+2018-07-27 16:34:28.775711, Answer route entered, Result received as 130
+2018-07-27 16:34:31.848123, Answer route entered, Result received as 40
+2018-07-27 16:34:34.432608, Answer route entered, Result received as 24
+2018-07-27 16:34:37.862134, Answer route entered, Result received as 22
+2018-07-27 16:34:42.070917, Answer route entered, Result received as 26
+2018-07-27 16:34:44.911439, Answer route entered, Result received as 42
+2018-07-27 16:34:49.284534, Answer route entered, Result received as 108
+2018-07-27 16:34:51.617083, Answer route entered, Result received as 66
+2018-07-27 16:34:54.278655, Answer route entered, Result received as 6
+2018-07-27 16:35:00.746757, Answer route entered, Result received as 117
+2018-07-27 16:35:00.837712, add_high_score - route entered
+2018-07-27 16:35:16.699475, add to leaders - route entered
+2018-07-27 16:35:16.723339, show leaderboard - route entered
+2018-07-27 16:35:16.723745, The 1 Minute X Challenge Leaders is the board name
+2018-07-27 16:35:40.060307, Home route entered
+2018-07-27 16:37:27.609413, Logger initialised
+2018-08-01 07:15:33.014167, Logger initialised
+2018-08-01 07:15:33.372597, Logger initialised
+2018-08-01 07:15:54.395517, Route start_game entered with mode = multi_time
+2018-08-01 07:15:58.673309, Answer route entered, Result received as 77
+2018-08-01 07:16:01.322698, Answer route entered, Result received as 42
+2018-08-01 07:16:05.093288, Answer route entered, Result received as 63
+2018-08-01 07:16:06.832541, Answer route entered, Result received as 5
+2018-08-01 07:16:08.677351, Answer route entered, Result received as 15
+2018-08-01 07:16:12.687077, Answer route entered, Result received as 156
+2018-08-01 07:16:17.306844, Answer route entered, Result received as 32
+2018-08-01 07:16:23.117432, Answer route entered, Result received as 146
+2018-08-01 07:16:33.117812, Answer route entered, Result received as 108
+2018-08-01 07:16:35.055407, Answer route entered, Result received as 40
+2018-08-01 07:16:36.679455, Answer route entered, Result received as 33
+2018-08-01 07:16:39.042653, Answer route entered, Result received as 20
+2018-08-01 07:16:41.325023, Answer route entered, Result received as 30
+2018-08-01 07:16:43.874978, Answer route entered, Result received as 88
+2018-08-01 07:17:00.886935, Answer route entered, Result received as 169
+2018-08-01 07:17:01.028058, get_new_high_score - route entered
+2018-08-01 07:17:07.691129, add_to_leader_board - route entered
+2018-08-01 07:17:07.731256, show leaderboard - route entered
+2018-08-01 07:17:07.731698, The 1 Minute X Challenge Leaders is the board name
+2018-08-01 07:17:19.724013, Home route entered
+2018-08-01 07:17:23.462378, Route start_game entered with mode = multi_set
+2018-08-01 07:17:29.429715, Answer route entered, Result received as 60
+2018-08-01 07:17:31.998047, Answer route entered, Result received as 18
+2018-08-01 07:17:33.682375, Answer route entered, Result received as 88
+2018-08-01 07:17:35.615749, Answer route entered, Result received as 20
+2018-08-01 07:17:37.747089, Answer route entered, Result received as 70
+2018-08-01 07:17:41.279194, Answer route entered, Result received as 65
+2018-08-01 07:17:43.245331, Answer route entered, Result received as 42
+2018-08-01 07:17:49.745557, Answer route entered, Result received as 54
+2018-08-01 07:17:52.473433, Answer route entered, Result received as 144
+2018-08-01 07:17:54.575939, Answer route entered, Result received as 65
+2018-08-01 07:18:02.164565, Answer route entered, Result received as 28
+2018-08-01 07:18:03.869174, Answer route entered, Result received as 10
+2018-08-01 07:18:06.345590, Answer route entered, Result received as 20
+2018-08-01 07:18:08.554752, Answer route entered, Result received as 18
+2018-08-01 07:18:10.499571, Answer route entered, Result received as 99
+2018-08-01 07:18:12.827249, Answer route entered, Result received as 48
+2018-08-01 07:18:14.907798, Answer route entered, Result received as 45
+2018-08-01 07:18:16.183379, Answer route entered, Result received as 2
+2018-08-01 07:18:18.435916, Answer route entered, Result received as 77
+2018-08-01 07:18:19.928917, Answer route entered, Result received as 6
+2018-08-01 07:18:20.011112, get_new_high_score - route entered
+2018-08-01 07:18:26.932106, add_to_leader_board - route entered
+2018-08-01 07:18:26.964084, show leaderboard - route entered
+2018-08-01 07:18:26.964567, The 20 X Question Leaders is the board name
+2018-08-01 07:25:48.424603, Logger initialised
+2018-08-01 07:25:58.864717, Home route entered
+2018-08-01 07:26:03.358525, Route start_game entered with mode = multi_time
+2018-08-01 07:26:06.930855, Answer route entered, Result received as 35
+2018-08-01 07:26:08.895015, Answer route entered, Result received as 64
+2018-08-01 07:26:10.579421, Answer route entered, Result received as 90
+2018-08-01 07:26:12.275578, Answer route entered, Result received as 33
+2018-08-01 07:26:14.076867, Answer route entered, Result received as 60
+2018-08-01 07:26:17.667690, Answer route entered, Result received as 54
+2018-08-01 07:26:20.070168, Answer route entered, Result received as 22
+2018-08-01 07:26:33.277589, Answer route entered, Result received as 27
+2018-08-01 07:26:35.781356, Answer route entered, Result received as 110
+2018-08-01 07:26:40.158885, Answer route entered, Result received as 36
+2018-08-01 07:26:41.741873, Answer route entered, Result received as 11
+2018-08-01 07:26:43.857178, Answer route entered, Result received as 16
+2018-08-01 07:26:46.077657, Answer route entered, Result received as 70
+2018-08-01 07:26:39.276053, Answer route entered, Result received as 32
+2018-08-01 07:26:40.924060, Answer route entered, Result received as 77
+2018-08-01 07:26:45.086034, Answer route entered, Result received as 132
+2018-08-01 07:26:47.813413, Answer route entered, Result received as 40
+2018-08-01 07:26:49.981235, Answer route entered, Result received as 10
+2018-08-01 07:26:55.069235, Answer route entered, Result received as 84
+2018-08-01 07:27:01.315953, Answer route entered, Result received as 108
+2018-08-01 07:27:05.476942, Answer route entered, Result received as 48
+2018-08-01 07:27:05.581298, get_new_high_score - route entered
+2018-08-01 07:27:14.299715, add_to_leader_board - route entered
+2018-08-01 07:27:14.324730, show leaderboard - route entered
+2018-08-01 07:27:14.325030, The 1 Minute X Challenge Leaders is the board name
+2018-08-01 07:31:59.692396, Logger initialised
+2018-08-01 07:32:08.691834, Home route entered
+2018-08-01 07:32:12.531857, Route start_game entered with mode = multi_time
+2018-08-01 07:32:17.683971, Answer route entered, Result received as 120
+2018-08-01 07:32:20.017119, Answer route entered, Result received as 24
+2018-08-01 07:32:21.664622, Answer route entered, Result received as 8
+2018-08-01 07:32:23.835977, Answer route entered, Result received as 156
+2018-08-01 07:32:25.090342, Answer route entered, Result received as 4
+2018-08-01 07:32:26.386317, Answer route entered, Result received as 6
+2018-08-01 07:32:28.197389, Answer route entered, Result received as 66
+2018-08-01 07:32:30.113964, Answer route entered, Result received as 16
+2018-08-01 07:32:31.931085, Answer route entered, Result received as 156
+2018-08-01 07:32:33.275031, Answer route entered, Result received as 6
+2018-08-01 07:32:34.808737, Answer route entered, Result received as 14
+2018-08-01 07:32:38.389112, Answer route entered, Result received as 84
+2018-08-01 07:32:40.524857, Answer route entered, Result received as 40
+2018-08-01 07:32:42.304219, Answer route entered, Result received as 33
+2018-08-01 07:32:45.910012, Answer route entered, Result received as 32
+2018-08-01 07:32:47.562484, Answer route entered, Result received as 22
+2018-08-01 07:32:49.407912, Answer route entered, Result received as 20
+2018-08-01 07:32:50.666082, Answer route entered, Result received as 4
+2018-08-01 07:32:52.731339, Answer route entered, Result received as 16
+2018-08-01 07:32:54.469198, Answer route entered, Result received as 30
+2018-08-01 07:33:08.666590, Answer route entered, Result received as 24
+2018-08-01 07:33:13.523545, Answer route entered, Result received as 72
+2018-08-01 07:33:13.603558, get_new_high_score - route entered
+2018-08-01 07:33:18.704922, add_to_leader_board - route entered
+2018-08-01 07:33:18.724642, show leaderboard - route entered
+2018-08-01 07:33:18.725100, The 1 Minute X Challenge Leaders is the board name
+2018-08-01 17:16:10.194178, Logger initialised
+2018-08-01 17:16:24.313992, Home route entered
+2018-08-01 17:18:14.847206, Home route entered
+2018-08-01 17:18:46.084562, Home route entered
+2018-08-01 17:18:46.133772, Home route entered
+2018-08-01 17:22:12.710181, Home route entered
+2018-08-01 17:22:53.508039, Home route entered
+2018-08-01 17:22:53.558863, Home route entered
+2018-08-02 07:34:32.975976, Home route entered
+2018-08-02 07:41:16.635422, Home route entered
+2018-08-02 07:47:57.249128, Logger initialised
+2018-08-07 07:24:00.344130, Home route entered
+2018-08-07 07:24:00.557121, Home route entered
+2018-08-13 21:06:33.406467, Logger initialised
+2018-08-13 21:06:33.856342, Logger initialised
+2018-08-13 21:07:30.822650, Home route entered
+2018-08-13 21:07:55.707684, Home route entered
+2018-08-13 21:07:55.778539, Home route entered
+2018-08-13 21:08:09.230262, Route start_game entered with mode = multi_time
+2018-08-13 21:08:15.500389, Answer route entered, Result received as 110
+2018-08-13 21:08:17.339743, Answer route entered, Result received as 120
+2018-08-13 21:08:19.586981, Answer route entered, Result received as 30
+2018-08-13 21:08:22.593703, Answer route entered, Result received as 121
+2018-08-13 21:08:25.461154, Answer route entered, Result received as 65
+2018-08-13 21:08:27.670465, Answer route entered, Result received as 40
+2018-08-13 21:08:30.125579, Answer route entered, Result received as 28
+2018-08-13 21:08:32.342095, Answer route entered, Result received as 42
+2018-08-13 21:08:36.722716, Answer route entered, Result received as 54
+2018-08-13 21:08:39.192125, Answer route entered, Result received as 48
+2018-08-13 21:08:40.794656, Answer route entered, Result received as 7
+2018-08-13 21:08:42.783747, Answer route entered, Result received as 130
+2018-08-13 21:08:49.112952, Answer route entered, Result received as 104
+2018-08-13 21:08:51.436011, Answer route entered, Result received as 65
+2018-08-13 21:08:53.062131, Answer route entered, Result received as 10
+2018-08-13 21:08:54.613828, Answer route entered, Result received as 9
+2018-08-13 21:08:56.707433, Answer route entered, Result received as 40
+2018-08-13 21:08:59.231474, Answer route entered, Result received as 84
+2018-08-13 21:09:02.119876, Answer route entered, Result received as 24
+2018-08-13 21:09:04.064764, Answer route entered, Result received as 16
+2018-08-13 21:09:07.906597, Answer route entered, Result received as 63
+2018-08-13 21:09:11.244457, Answer route entered, Result received as 72
+2018-08-13 21:09:11.288561, get_new_high_score - route entered
+2018-08-13 21:09:20.636038, add_to_leader_board - route entered
+2018-08-13 21:09:20.662203, show leaderboard - route entered
+2018-08-13 21:09:20.662675, The 1 Minute X Challenge Leaders is the board name
+2018-08-13 21:09:39.670824, Home route entered
+2018-08-14 16:58:20.608010, Home route entered
+2018-08-14 17:10:40.038591, Home route entered
+2018-08-14 17:11:07.894229, Home route entered
+2018-08-14 17:11:07.958842, Home route entered
+2018-08-14 17:20:10.696246, Home route entered
+2018-08-14 17:20:33.608135, Home route entered
+2018-08-14 17:20:33.669549, Home route entered
+2018-08-14 17:21:38.404271, Home route entered
+2018-08-14 17:22:34.389680, Home route entered
+2018-08-14 17:22:34.451340, Home route entered
+2018-08-14 17:24:28.727164, Home route entered
+2018-08-14 17:24:56.773568, Home route entered
+2018-08-14 17:24:56.857195, Home route entered
+2018-08-14 17:25:26.275741, Home route entered
+2018-08-14 17:25:30.927602, show leaderboard - route entered
+2018-08-14 17:25:30.935060, The 1 Minute X Challenge Leaders is the board name
+2018-08-14 17:25:34.214119, Home route entered
+2018-08-14 17:25:50.465320, Home route entered
+2018-08-14 17:25:50.526215, Home route entered
+2018-08-14 20:22:37.691077, Logger initialised
+2018-08-14 20:22:38.300212, Logger initialised
+2018-08-14 20:22:42.222559, Home route entered
+2018-08-14 20:26:56.796762, Home route entered
+2018-08-14 20:44:06.665473, Home route entered
+2018-08-14 20:47:44.779088, Home route entered
+2018-08-14 20:49:28.707646, Home route entered
+2018-08-14 20:51:05.886821, Home route entered
+2018-08-14 20:54:44.536234, Logger initialised
+2018-08-14 21:13:37.794143, Logger initialised
+2018-08-14 21:13:38.183736, Logger initialised
+2018-08-14 21:13:43.032953, Home route entered
+2018-08-14 21:13:47.020305, direct leaderboard - route entered
+2018-08-14 21:13:47.020661, The 20 X Question Leaders is the board name
+2018-08-14 21:15:40.138639, Logger initialised
+2018-08-14 21:15:40.847290, Logger initialised
+2018-08-14 21:15:49.311024, direct leaderboard - route entered
+2018-08-14 21:15:49.312296, The 20 X Question Leaders is the board name
+2018-08-15 19:36:14.155257, Logger initialised
+2018-08-15 20:39:46.446591, Home route entered
+2018-08-15 20:39:46.725979, Home route entered
+2018-08-17 07:20:11.081983, Logger initialised
+2018-08-17 07:20:12.315896, Logger initialised
+2018-08-17 07:20:24.295557, Home route entered
+2018-08-17 07:20:24.767022, Home route entered
+2018-08-17 07:24:03.068854, Home route entered
+2018-08-17 07:24:34.858070, direct leaderboard - route entered
+2018-08-17 07:26:46.924151, The 20 X Question Leaders is the board name
+2018-08-17 07:32:22.334182, Logger initialised
+2018-08-17 07:32:23.593343, Logger initialised
+2018-08-17 07:32:24.260298, direct leaderboard - route entered
+2018-08-17 07:32:24.262968, The 20 X Question Leaders is the board name
+2018-08-17 07:38:16.028927, Logger initialised
+2018-08-17 07:38:17.385440, Logger initialised
+2018-08-17 07:38:25.192352, Home route entered
+2018-08-17 07:38:27.542556, direct leaderboard - route entered
+2018-08-17 07:38:27.547806, The 20 X Question Leaders is the board name
+2018-08-17 07:49:38.065457, Logger initialised
+2018-08-17 07:49:39.351454, Logger initialised
+2018-08-17 07:49:42.587918, direct leaderboard - route entered
+2018-08-17 07:49:42.591283, The 20 X Question Leaders is the board name
+2018-08-17 07:53:28.736082, Logger initialised
+2018-08-17 07:53:30.046172, Logger initialised
+2018-08-17 07:53:33.577600, direct leaderboard - route entered
+2018-08-17 07:53:33.579949, The 20 X Question Leaders is the board name
+2018-08-17 07:56:36.073426, Logger initialised
+2018-08-17 07:56:36.253408, direct leaderboard - route entered
+2018-08-17 07:56:36.255776, The 20 X Question Leaders is the board name
+2018-08-17 16:12:27.088679, Logger initialised
+2018-08-17 16:12:28.433059, Logger initialised
+2018-08-17 16:12:35.846534, direct leaderboard - route entered
+2018-08-17 16:12:35.849309, The 20 X Question Leaders is the board name
+2018-08-17 16:16:52.598261, Logger initialised
+2018-08-17 16:18:41.886042, Logger initialised
+2018-08-17 16:18:43.135359, Logger initialised
+2018-08-17 16:18:53.689057, direct leaderboard - route entered
+2018-08-17 16:18:53.699561, The 20 X Question Leaders is the board name
+2018-08-17 16:20:02.688202, Home route entered
+2018-08-17 16:20:04.545676, direct leaderboard - route entered
+2018-08-17 16:20:04.547483, The 1 Minute X Challenge Leaders is the board name
+2018-08-17 16:20:09.783427, Home route entered
+2018-08-17 16:20:56.796555, Home route entered
+2018-08-17 16:23:00.690302, Logger initialised
+2018-08-17 16:30:34.645824, Logger initialised
+2018-08-17 16:30:35.095471, Logger initialised
+2018-08-17 16:30:50.762072, Home route entered
+2018-08-17 16:30:56.392960, direct leaderboard - route entered
+2018-08-17 16:30:58.330787, Home route entered
+2018-08-17 16:30:59.770496, direct leaderboard - route entered
+2018-08-17 16:31:04.071197, Home route entered
+2018-08-17 16:31:05.537928, Route start_game entered with mode = multi_set
+2018-08-17 16:31:09.500928, Answer route entered, Result received as 84
+2018-08-17 16:31:14.620632, Answer route entered, Result received as 104
+2018-08-17 16:31:19.023662, Home route entered
+2018-08-17 16:31:19.085410, Home route entered
+2018-08-17 16:31:19.528999, Answer route entered, Result received as 108
+2018-08-17 16:31:20.818811, Answer route entered, Result received as 3
+2018-08-17 16:31:22.637289, Answer route entered, Result received as 121
+2018-08-17 16:31:26.985107, Answer route entered, Result received as 108
+2018-08-17 16:31:28.867893, Answer route entered, Result received as 6
+2018-08-17 16:31:30.601393, Answer route entered, Result received as 40
+2018-08-17 16:31:32.719792, Answer route entered, Result received as 18
+2018-08-17 16:31:35.003797, Answer route entered, Result received as 24
+2018-08-17 16:31:40.434854, Answer route entered, Result received as 84
+2018-08-17 16:31:42.912419, Answer route entered, Result received as 15
+2018-08-17 16:31:46.872454, Answer route entered, Result received as 60
+2018-08-17 16:31:49.671725, Answer route entered, Result received as 36
+2018-08-17 16:31:51.369221, Answer route entered, Result received as 30
+2018-08-17 16:31:52.675193, Answer route entered, Result received as 5
+2018-08-17 16:31:54.228469, Answer route entered, Result received as 33
+2018-08-17 16:31:59.583501, Answer route entered, Result received as 117
+2018-08-17 16:32:02.492382, Answer route entered, Result received as 64
+2018-08-17 16:32:04.657127, Answer route entered, Result received as 70
+2018-08-17 16:32:04.693705, get_new_high_score - route entered
+2018-08-17 16:32:17.184193, add_to_leader_board - route entered
+2018-08-17 16:32:17.214732, show leaderboard - route entered
+2018-08-17 16:32:22.443728, Home route entered
+2018-08-17 16:32:24.439977, Route start_game entered with mode = multi_time
+2018-08-17 16:32:30.604410, Answer route entered, Result received as 36
+2018-08-17 16:32:33.287753, Answer route entered, Result received as 70
+2018-08-17 16:32:35.643007, Answer route entered, Result received as 77
+2018-08-17 16:32:38.366053, Answer route entered, Result received as 16
+2018-08-17 16:32:39.505625, Answer route entered, Result received as 5
+2018-08-17 16:32:41.063212, Answer route entered, Result received as 88
+2018-08-17 16:32:45.846174, Answer route entered, Result received as 91
+2018-08-17 16:32:48.069367, Answer route entered, Result received as 60
+2018-08-17 16:32:52.530360, Answer route entered, Result received as 52
+2018-08-17 16:32:53.794449, Answer route entered, Result received as 4
+2018-08-17 16:32:55.969017, Answer route entered, Result received as 144
+2018-08-17 16:33:00.573738, Answer route entered, Result received as 104
+2018-08-17 16:33:02.483662, Answer route entered, Result received as 13
+2018-08-17 16:33:04.427652, Answer route entered, Result received as 80
+2018-08-17 16:33:05.761646, Answer route entered, Result received as 8
+2018-08-17 16:33:07.892618, Answer route entered, Result received as 30
+2018-08-17 16:33:10.583103, Answer route entered, Result received as 65
+2018-08-17 16:33:16.578678, Answer route entered, Result received as 63
+2018-08-17 16:33:18.223051, Answer route entered, Result received as 77
+2018-08-17 16:33:20.221478, Answer route entered, Result received as 64
+2018-08-17 16:33:22.674470, Answer route entered, Result received as 40
+2018-08-17 16:33:26.825478, Answer route entered, Result received as 132
+2018-08-17 16:33:26.866266, get_new_high_score - route entered
+2018-08-17 16:33:38.790767, add_to_leader_board - route entered
+2018-08-17 16:33:38.817097, show leaderboard - route entered
+2018-08-17 16:33:46.410579, Home route entered
