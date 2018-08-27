@@ -1,0 +1,16 @@
+settings:
+	variable number of fractions - 3/4/5
+	var integer size to generate fractions with
+	var generate >1 fractions or not
+	var arrange in small to large 
+	
+present the fractions in 2/3 format as </br> separated items, each fraction going into another column
+answer box : arrange ACB in lower or upper case
+
+Animation on results
+Selection on response - Wow, great, got it, spot on etc for both correct/incorrect
+movable html boxes?
+
+
+
+investigate - create object as json to pass back and forth to Web
