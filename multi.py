@@ -15,6 +15,7 @@ class Q(object):
         self.r = False #use to store the result
 
     def result(self,Resp):
+        #use to provide feedback on the answer,
         if Resp.isnumeric():
             self.invalid = False #numeric value given = no longer invalid and will be evaluated
             Answer = int(Resp)

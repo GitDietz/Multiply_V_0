@@ -31,7 +31,7 @@ class Perf(object):  #is reset when new game is started
         else:
             return False
 
-    def runCheck(self):
+    def CheckForStop(self):
         if self.Driver == 'multi_time':
             if t.time()>=self.TStop:
                 self.StopNow = 'yes'
@@ -50,7 +50,7 @@ class Perf(object):  #is reset when new game is started
 
     def updateScore(self,result):
         self.Asked += 1
-        self.runCheck()
+        self.CheckForStop()
         if result == True:
             self.Correct +=1
         self.RecalcRates()
