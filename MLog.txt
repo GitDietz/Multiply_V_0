@@ -686,3 +686,18 @@
 2018-08-17 16:33:38.790767, add_to_leader_board - route entered
 2018-08-17 16:33:38.817097, show leaderboard - route entered
 2018-08-17 16:33:46.410579, Home route entered
+2018-09-28 10:36:33.516066, Logger initialised
+2018-09-28 10:36:33.875895, Logger initialised
+2018-09-28 10:36:52.731029, not logged in, going to login
+2018-09-28 10:37:07.423877, not logged in, going to login
+2018-09-28 10:38:10.913886, Home route entered
+2018-09-28 10:45:48.152042, Logger initialised
+2018-09-28 10:46:08.045160, Logger initialised
+2018-10-10 07:36:13.083941, Logger initialised
+2018-10-10 07:45:12.717219, Logger initialised
+2018-10-10 07:45:13.139433, Logger initialised
+2018-10-10 07:46:26.999716, Logger initialised
+2018-10-10 07:47:17.999828, Logger initialised
+2018-10-10 07:47:18.377671, Logger initialised
+2018-10-10 07:53:26.809136, Logger initialised
+2018-10-10 07:53:27.279018, Logger initialised

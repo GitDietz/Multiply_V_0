@@ -1,4 +1,5 @@
-from flask import Flask,url_for, render_template, session, redirect, request, g, jsonify
+from flask import Flask,url_for, render_template, session, redirect, request, g, jsonify,flash
+from config import Config
 import logger as log, json
 from multi import Q
 from game_control import Perf
@@ -7,7 +8,8 @@ import utils, os
 
 app = Flask(__name__)
 mylog = log.logger('MLog.txt')
-app.secret_key = 'aqd123'
+#app.secret_key = 'aqd123'  used before the  implementation of the config file
+app.config.from_object(Config)
 
 theQ = Q()
 myPerform = Perf('multi_set')
@@ -16,6 +18,31 @@ myPerform = Perf('multi_set')
 @app.route('/')
 def homepage():
     mylog.add_log('Home route entered')
+    return render_template('index.html')
+
+@app.route('/with_login')
+def homepage_login():
+    #activate this again when login operations are in plve
+    if not session.get('logged_in'):
+        mylog.add_log('not logged in, going to login')
+        return render_template('login.html')
+    else:
+        mylog.add_log('Home route entered')
+        return render_template('index.html')
+
+@app.route('/login', methods=['POST'])
+def do_admin_login():
+    #part of the login operation otherwise not required
+    if request.form['password'] == 'password':
+        session['logged_in'] = True
+    else:
+        flash('wrong password provided')
+    return homepage()
+#https://pythonspot.com/login-authentication-with-flask/
+
+@app.route('/logout')
+def logout():
+    session['logged_in'] = False
     return render_template('index.html')
 
 @app.route('/start_game/<game_mode>')
