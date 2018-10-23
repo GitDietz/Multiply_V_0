@@ -1,3 +1,10 @@
+Mods 20181015
+
+alter classes to take .reset as full re_init
+    take .newq as just a new question to generate
+move game selection and mode to game_control
+function to split game and mode & init class
+
 Logic flow 20180710
 
 game.HTML

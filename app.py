@@ -1,18 +1,28 @@
 from flask import Flask,url_for, render_template, session, redirect, request, g, jsonify,flash
-from config import Config
 import logger as log, json
 from multi import Q
-from game_control import Perf
+from fractor import QFrac
+from game_control import Perf, Config
 from operator import itemgetter
 import utils, os
 
 app = Flask(__name__)
 mylog = log.logger('MLog.txt')
-#app.secret_key = 'aqd123'  used before the  implementation of the config file
-app.config.from_object(Config)
+app.secret_key = 'aqd123'  #used before the  implementation of the config file
+#app.config.from_object(Config)
 
+C = Config()
 theQ = Q()
-myPerform = Perf('multi_set')
+myPerform = Perf('set')
+
+def set_q(game_mode):
+    print('game is '+game_mode + " no other values set")
+    qset = game_mode.split("_")
+    if qset[0] == 'frac':
+        return QFrac(3, True)
+    elif qset[0] == 'multi':
+        return Q()
+
 
 
 @app.route('/')
@@ -49,9 +59,13 @@ def logout():
 def start_game(game_mode):
     #add validation to ensure only valid options are passed
     mylog.add_log('Route start_game entered with mode = ' + game_mode)
-    #print('We\'re going for ' + game_mode)
-    theQ.reset()
-    myPerform.reset(game_mode)
+    #print('We\'re going for ' + game_mode), now need to config the game
+    C.set(game_mode)
+    myPerform.reset(C.curr_mode)
+    #set_q(game_mode)
+    #theQ = set_q(game_mode)
+    #theQ.reset()
+    #myPerform.reset(game_mode)
     return render_template('game.html', question = theQ.q)
 
 

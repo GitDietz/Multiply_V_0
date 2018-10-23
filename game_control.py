@@ -2,6 +2,49 @@ import time as t
 from datetime import datetime as d
 import csv, os.path, utils
 from operator import itemgetter
+from multi import Q
+from fractor import QFrac
+
+class Config(object):
+    #this stores the config data from the json until the app closes
+    def __init__(self):
+        self.reset()
+
+    def reset(self):
+        #what do we need for the leader boards only? game_mode
+        self.config = utils.get_config()
+        self.curr_game = ''
+        self.curr_mode = ''
+        self.curr_lb = ''
+        self.curr_file = ''
+        self.curr_var1 = 1
+        self.curr_var2 = True
+        print('Config set')
+
+    def set(self,game_mode):
+
+        for f in self.config:
+            print(f['game'] + ' file of ' + f['file'])
+            if f['game'] == game_mode:
+                self.curr_file = f['file']
+                self.curr_lb = f['boardname']
+                found = True
+                break
+        if found:
+            # the format is frac_set, frac_time
+            qset = game_mode.split("_")
+            self.curr_game = qset[0]
+            self.curr_mode = qset[1]
+            if qset[0] == 'frac':
+                self.curr_var1 = qset[2]
+                if qset[3] == 'True':
+                    self.curr_var2 = True
+                else:
+                    self.curr_var2 = False
+        else:
+            raise ValueError('No game of type ''{}'' found in config file'.format(game_mode))
+
+
 
 class Perf(object):  #is reset when new game is started
     def __init__(self,mode):
@@ -20,10 +63,14 @@ class Perf(object):  #is reset when new game is started
         self.running = True
         self.stats = ''
         self.hi_score = 'No'
+        self.lead_list = []
+        self.low_score = 0.0
+        '''
         self.file = ''
         self.board_name = ''
-        self.lead_list = []
+        
         self.set_leader_board()
+        '''
 
     def start_stop(self,toggle, mode = None):
         if mode:#change to only set mode nothing else
@@ -32,7 +79,7 @@ class Perf(object):  #is reset when new game is started
             return False
 
     def CheckForStop(self):
-        if self.Driver == 'multi_time':
+        if self.Driver == 'time':
             if t.time()>=self.TStop:
                 self.StopNow = 'yes'
         else:
@@ -62,8 +109,8 @@ class Perf(object):  #is reset when new game is started
         self.board_name = l[1]
 
     def is_high_score(self):
-        #print('func is_high_scrore starts')
-        #now add the other content fomr ishighscore in app here toset high or not
+        #print('func is_high_score starts')
+        #now add the other content from ishighscore in app here toset high or not
         lead_list = utils.load_list_json(self.file)
         lead_list.sort(key=itemgetter('CPM'))
         low_val = lead_list[0]['CPM']

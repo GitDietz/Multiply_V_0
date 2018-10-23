@@ -39,5 +39,14 @@ def get_score_file(game_name):
             return name_l
     raise LookupError('No game with the name {} found in file',format(game_name))
 
+def get_config():
+    return load_list_json(full_name('config.json'))
 
-
+def get_low_score(file_name):
+    lead_list = load_list_json(file_name)
+    lead_list.sort(key=itemgetter('CPM'))
+    low_val = lead_list[0]['CPM']
+    lead_list = lead_list.sort(key=itemgetter('CPM'), reverse=True)
+    if self.CorrectRate > low_val:
+        self.hi_score = 'Yes'
+    return self.hi_score
