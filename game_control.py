@@ -19,10 +19,11 @@ class Config(object):
         self.curr_file = ''
         self.curr_var1 = 1
         self.curr_var2 = True
+        self.lead_list = []
         print('Config set')
 
     def set(self,game_mode):
-
+        found = False
         for f in self.config:
             print(f['game'] + ' file of ' + f['file'])
             if f['game'] == game_mode:
@@ -36,7 +37,7 @@ class Config(object):
             self.curr_game = qset[0]
             self.curr_mode = qset[1]
             if qset[0] == 'frac':
-                self.curr_var1 = qset[2]
+                self.curr_var1 = int(qset[2])
                 if qset[3] == 'True':
                     self.curr_var2 = True
                 else:
@@ -44,7 +45,19 @@ class Config(object):
         else:
             raise ValueError('No game of type ''{}'' found in config file'.format(game_mode))
 
+    def get_lead_list(self):
+        leadlist = utils.load_list_json(self.curr_file)
+        leadlist.sort(key=itemgetter('CPM'), reverse=True)
+        self.lead_list = leadlist
+        return self.lead_list
 
+    def set_question(self):
+        if self.curr_game == 'multi':
+            return Q()
+        elif self.curr_game == 'frac':
+            return QFrac(self.curr_var1, self.curr_var2)
+        else:
+            return None
 
 class Perf(object):  #is reset when new game is started
     def __init__(self,mode):
@@ -65,18 +78,19 @@ class Perf(object):  #is reset when new game is started
         self.hi_score = 'No'
         self.lead_list = []
         self.low_score = 0.0
-        '''
-        self.file = ''
-        self.board_name = ''
-        
-        self.set_leader_board()
-        '''
+
 
     def start_stop(self,toggle, mode = None):
         if mode:#change to only set mode nothing else
             return True
         else:
             return False
+
+    def get_lead_list(self):
+        leadlist = utils.load_list_json(self.file)
+        leadlist.sort(key=itemgetter('CPM'), reverse=True)
+        self.lead_list = leadlist
+        return self.lead_list
 
     def CheckForStop(self):
         if self.Driver == 'time':
@@ -121,11 +135,6 @@ class Perf(object):  #is reset when new game is started
             self.hi_score = 'Yes'
         return self.hi_score
 
-    def get_lead_list(self):
-        leadlist = utils.load_list_json(self.file)
-        leadlist.sort(key=itemgetter('CPM'), reverse=True)
-        self.lead_list = leadlist
-        return self.lead_list
 
 
 def write_results(StatSent,player):

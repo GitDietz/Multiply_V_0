@@ -798,3 +798,78 @@
 2018-10-18 17:21:02.602289, Answer route entered, Result received as 12
 2018-10-18 17:21:03.748023, Answer route entered, Result received as 43
 2018-10-18 17:21:42.505473, Answer route entered, Result received as 55
+2018-10-29 18:57:26.020795, Logger initialised
+2018-10-29 18:57:26.550030, Logger initialised
+2018-10-29 18:57:34.410196, Home route entered
+2018-10-29 18:57:40.697395, direct leaderboard - route entered
+2018-10-29 19:24:38.261383, Logger initialised
+2018-10-29 19:24:38.892497, Logger initialised
+2018-10-29 19:24:48.651887, direct leaderboard - route entered
+2018-10-29 19:34:02.006615, Logger initialised
+2018-10-29 19:34:02.589488, Logger initialised
+2018-10-29 19:34:08.107657, direct leaderboard - route entered
+2018-10-29 19:35:56.239924, direct leaderboard - route entered
+2018-10-29 19:42:39.310372, Logger initialised
+2018-10-29 19:42:39.905081, Logger initialised
+2018-10-29 19:42:42.695318, direct leaderboard - route entered
+2018-10-29 19:44:00.364609, Logger initialised
+2018-10-29 19:44:00.956220, Logger initialised
+2018-10-29 19:44:03.480689, direct leaderboard - route entered
+2018-10-29 19:46:55.684812, Logger initialised
+2018-10-29 19:47:03.238767, direct leaderboard - route entered
+2018-10-29 19:48:56.477857, Logger initialised
+2018-10-29 19:48:57.064678, Logger initialised
+2018-10-29 19:49:06.891741, Home route entered
+2018-10-29 19:49:13.974780, direct leaderboard - route entered
+2018-10-29 19:51:39.438081, Logger initialised
+2018-10-29 19:51:45.629321, direct leaderboard - route entered
+2018-10-29 19:55:00.768340, Logger initialised
+2018-10-29 19:55:01.384813, Logger initialised
+2018-10-29 19:55:04.910893, Home route entered
+2018-10-29 19:55:09.136921, direct leaderboard - route entered
+2018-10-29 20:02:03.287230, direct leaderboard - route entered
+2018-10-29 20:02:26.757016, Home route entered
+2018-10-29 20:02:28.316382, direct leaderboard - route entered
+2018-10-29 20:02:41.423215, Home route entered
+2018-10-29 20:02:42.764372, direct leaderboard - route entered
+2018-10-29 20:02:50.909551, Home route entered
+2018-10-29 20:02:52.190934, direct leaderboard - route entered
+2018-10-29 20:03:12.058543, Home route entered
+2018-10-29 20:20:57.096548, Logger initialised
+2018-10-29 20:20:57.684573, Logger initialised
+2018-10-29 20:20:59.717610, Route start_game entered with mode = multi_set
+2018-10-29 20:22:33.893381, Home route entered
+2018-10-29 20:22:36.434560, Route start_game entered with mode = frac_set_3_True
+2018-10-29 20:23:38.308055, Logger initialised
+2018-10-29 20:23:38.376356, Route start_game entered with mode = frac_set_3_True
+2018-10-29 20:25:18.282588, Logger initialised
+2018-10-29 20:25:24.784258, Route start_game entered with mode = frac_set_3_True
+2018-10-29 20:26:09.465763, Answer route entered, Result received as 17/8
+2018-10-29 20:26:58.300784, Answer route entered, Result received as 23r
+2018-10-29 20:42:27.362801, Logger initialised
+2018-10-29 20:42:27.944874, Logger initialised
+2018-10-29 20:42:32.027929, Home route entered
+2018-10-29 20:42:34.861534, Route start_game entered with mode = frac_set_3_True
+2018-10-29 20:43:24.510866, Answer route entered, Result received as 20/4
+2018-10-29 20:46:12.835823, Answer route entered, Result received as 20/4
+2018-10-29 20:50:29.963255, Logger initialised
+2018-10-29 20:50:31.396139, Answer route entered, Result received as 20/4
+2018-10-29 20:50:47.973039, Answer route entered, Result received as 20/4
+2018-10-29 20:51:00.696755, Answer route entered, Result received as 
+2018-10-29 20:51:01.404927, Answer route entered, Result received as 
+2018-10-29 20:51:04.795256, Route start_game entered with mode = frac_set_3_True
+2018-10-29 20:51:17.138593, Home route entered
+2018-10-29 20:51:18.706234, Route start_game entered with mode = frac_set_3_True
+2018-10-29 20:51:38.283467, Answer route entered, Result received as 22/10
+2018-10-29 21:02:32.922067, Logger initialised
+2018-10-29 21:02:32.992330, Home route entered
+2018-10-29 21:02:36.433688, Route start_game entered with mode = frac_set_3_True
+2018-10-29 21:02:43.926111, Answer route entered, Result received as 16/2
+2018-10-29 21:06:37.473999, Logger initialised
+2018-10-29 21:06:39.226421, Answer route entered, Result received as 26/2
+2018-10-29 21:06:46.632163, Home route entered
+2018-10-29 21:06:48.198953, Route start_game entered with mode = frac_set_3_True
+2018-10-29 21:06:53.933196, Answer route entered, Result received as 25/4
+2018-10-29 21:07:51.114906, Answer route entered, Result received as 21/2
+2018-10-29 21:08:05.897220, Answer route entered, Result received as 17/10
+2018-10-29 21:08:28.812991, Answer route entered, Result received as 25/10

@@ -12,7 +12,7 @@ app.secret_key = 'aqd123'  #used before the  implementation of the config file
 #app.config.from_object(Config)
 
 C = Config()
-theQ = Q()
+#theQ = Q()
 myPerform = Perf('set')
 
 def set_q(game_mode):
@@ -57,11 +57,12 @@ def logout():
 
 @app.route('/start_game/<game_mode>')
 def start_game(game_mode):
+    global theQ
     #add validation to ensure only valid options are passed
     mylog.add_log('Route start_game entered with mode = ' + game_mode)
-    #print('We\'re going for ' + game_mode), now need to config the game
     C.set(game_mode)
     myPerform.reset(C.curr_mode)
+    theQ = C.set_question()
     #set_q(game_mode)
     #theQ = set_q(game_mode)
     #theQ.reset()
@@ -72,25 +73,27 @@ def start_game(game_mode):
 @app.route('/show_lb_direct/<game_mode>') #direct access to the leader board without plauying the game
 def show_lb_direct(game_mode):
     mylog.add_log('direct leaderboard - route entered')
-    myPerform.reset(game_mode)
-    #mylog.add_log(myPerform.board_name + ' is the board name')
-    myPerform.get_lead_list()
-    leaders = myPerform.lead_list
+    C.set(game_mode)
+    leaders = C.get_lead_list()
+    board_name = C.curr_lb
     return render_template('leader_board.html', leaders = leaders,
-                           board = myPerform.board_name)
+                           board = board_name)
+
 
 @app.route('/submit_answer', methods = ['POST'])
 def submit_answer():
+    global theQ
     answer = request.form['answer'] #answer is the key in the json
     mylog.add_log('Answer route entered, Result received as ' + answer)
     last_result = theQ.result(answer)
     if theQ.invalid == False:
         myPerform.updateScore(theQ.r)
         theQ.reset()
-        stats = str.replace(myPerform.stats,'\n','<br>')
         Q = theQ.q
     else:
         Q = None
+
+    stats = str.replace(myPerform.stats, '\n', '<br>')
     return jsonify({'result': 'OK good', 'reaction': last_result,
                     'next_question': Q , 'stat' : stats , 'stop_game' : myPerform.StopNow,
                     'tstop':myPerform.TStop, 'hi_score' : myPerform.hi_score, 'game_type': myPerform.Driver})

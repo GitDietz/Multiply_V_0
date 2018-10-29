@@ -5,25 +5,30 @@ class QFrac(object):
     Fraction question object
     '''
     def __init__(self,no_of,same_denom):
-        self.reset(no_of,same_denom)
+        self.set(no_of,same_denom)
 
-    def reset(self,no_of,same_denom):
-        top = 12
+    def set(self,no_of,same_denom):
+        self.top = 12
         self.tolerance = 0.000000001
+        self.no_of = no_of
+        self.same_denom = same_denom
+        self.reset()
+
+    def reset(self):
         self.components = []
         self.q = 'What is '
-        numer = Rd.randint(2, top)
+        numer = Rd.randint(2, self.top)
         self.components.append(numer)
-        denominator = Rd.randint(2, top)
+        denominator = Rd.randint(2, self.top)
         self.components.append(denominator)
 
         self.q += str(numer) + '/' + str(denominator) + ' '
         self.correct_result = numer/denominator
-        for i in range(1,no_of):
-            numer = Rd.randint(1, top)
+        for i in range(1,self.no_of):
+            numer = Rd.randint(1, self.top)
             self.components.append(numer)
-            if not same_denom:
-                denominator = Rd.randint(2, top)
+            if not self.same_denom:
+                denominator = Rd.randint(2, self.top)
             self.components.append(denominator)
             self.q += ' + ' + str(numer) + '/' + str(denominator) +' '
             self.correct_result += numer/denominator
@@ -40,6 +45,8 @@ class QFrac(object):
         self.r = False
         if myval.isnumeric():
             if abs(float(myval) - self.correct_result) <= self.tolerance:
+                self.invalid = False
+                self.r = True
                 return 'Well Done!'
 
         if myval.find('/')==-1:
@@ -51,6 +58,7 @@ class QFrac(object):
                 if abs((int(parts[0]) / int(parts[1])) - self.correct_result) <= self.tolerance:
                     #print('Resulting in {}'.format(str(int(parts[0]) / int(parts[1]))))
                     comment = 'Well Done!'
+                    self.invalid = False
                     self.r = True
                 else:
                     comment = 'Not quite'
