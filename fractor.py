@@ -62,6 +62,7 @@ class QFrac(object):
                     self.r = True
                 else:
                     comment = 'Not quite'
+                    self.invalid = False
             else:
                 comment = 'Both parts must be numbers'
         return comment

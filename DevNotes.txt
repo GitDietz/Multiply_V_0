@@ -18,7 +18,7 @@ app with leaderboard options - will need to reset the config
     leaders = myPerform.lead_list
 		not elegant - puts it to another variable to pass to the template
 
-Monday issue
+29/10 Monday issue
 score not updating correct on fract
 
 ============
