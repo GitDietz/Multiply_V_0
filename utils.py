@@ -50,3 +50,10 @@ def get_low_score(file_name):
     if self.CorrectRate > low_val:
         self.hi_score = 'Yes'
     return self.hi_score
+
+def isFloat(str):
+    try:
+        result = float(str)
+        return True
+    except:
+        return False

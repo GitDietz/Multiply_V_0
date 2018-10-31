@@ -1,4 +1,5 @@
 import random as Rd, json
+from utils import isFloat
 
 class QFrac(object):
     '''
@@ -43,11 +44,14 @@ class QFrac(object):
         #return Correct or not
         #no / contained not all values
         self.r = False
-        if myval.isnumeric():
+        if isFloat(myval):
             if abs(float(myval) - self.correct_result) <= self.tolerance:
                 self.invalid = False
                 self.r = True
                 return 'Well Done!'
+            else:
+                self.invalid = False
+                return 'Not quite'
 
         if myval.find('/')==-1:
             comment = 'Format needs to be 2 numbers separated with the / e.g. 3 / 4'

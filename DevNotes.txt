@@ -18,8 +18,12 @@ app with leaderboard options - will need to reset the config
     leaders = myPerform.lead_list
 		not elegant - puts it to another variable to pass to the template
 
-29/10 Monday issue
-score not updating correct on fract
+At the end of the game:
+	my perform.updateScore is run
+		this runs check for stop, then if a stop check for high score
+	todo: move isHighScore to config, pass self.correctrate from my perform as param
+		
+
 
 ============
 Mods 20181015

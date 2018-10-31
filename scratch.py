@@ -18,3 +18,5 @@ def isFloat(str):
         return False
 
 print('the value 2.33 is a float ? {}',format(isFloat('2.555')))
+print('the value 23 is a float ? {}',format(isFloat('23')))
+print('the value 2/33 is a float ? {}',format(isFloat('2/555')))

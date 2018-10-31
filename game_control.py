@@ -59,13 +59,25 @@ class Config(object):
         else:
             return None
 
+    def is_high_score(self,CorrectRate):
+        lead_list = utils.load_list_json(self.curr_file)
+        lead_list.sort(key=itemgetter('CPM'))
+        low_val = lead_list[0]['CPM']
+        lead_list = lead_list.sort(key=itemgetter('CPM'), reverse=True)
+        self.lead_list = lead_list
+        if CorrectRate > low_val:
+            return 'Yes'
+        else:
+            return 'No'
+
+
 class Perf(object):  #is reset when new game is started
     def __init__(self,mode):
         self.reset(mode)
 
     def reset(self,mode):
         self.Asked = 0
-        self.QLimit = 20
+        self.QLimit = 4
         self.Start = t.time() #this is in sec
         self.Correct = 0
         self.TStop = t.time() + 60
@@ -75,9 +87,9 @@ class Perf(object):  #is reset when new game is started
         self.CorrectRate = 0.0
         self.running = True
         self.stats = ''
-        self.hi_score = 'No'
-        self.lead_list = []
-        self.low_score = 0.0
+        #self.hi_score = 'No'
+        #self.lead_list = []
+        #self.low_score = 0.0
 
 
     def start_stop(self,toggle, mode = None):
@@ -99,8 +111,8 @@ class Perf(object):  #is reset when new game is started
         else:
             if self.Asked >= self.QLimit:
                 self.StopNow = 'yes'
-        if self.StopNow == 'yes':
-            self.is_high_score()
+        #if self.StopNow == 'yes':
+        #    self.is_high_score()
 
     def RecalcRates(self):
         self.AnswerRate = round(self.Asked * 60 / (t.time() - self.Start),2)

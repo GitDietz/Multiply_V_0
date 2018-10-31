@@ -83,12 +83,15 @@ def show_lb_direct(game_mode):
 @app.route('/submit_answer', methods = ['POST'])
 def submit_answer():
     global theQ
+    HS = 'No'
     answer = request.form['answer'] #answer is the key in the json
     mylog.add_log('Answer route entered, Result received as ' + answer)
     last_result = theQ.result(answer)
     if theQ.invalid == False:
         myPerform.updateScore(theQ.r)
-        theQ.reset()
+        if myPerform.StopNow == 'yes':#lower case for javascript = yes
+            HS = C.is_high_score(myPerform.CorrectRate) #is title case = Yes
+        theQ.reset() ##short circuit this part. and why is the lead list not being updated on C?
         Q = theQ.q
     else:
         Q = None
@@ -96,7 +99,7 @@ def submit_answer():
     stats = str.replace(myPerform.stats, '\n', '<br>')
     return jsonify({'result': 'OK good', 'reaction': last_result,
                     'next_question': Q , 'stat' : stats , 'stop_game' : myPerform.StopNow,
-                    'tstop':myPerform.TStop, 'hi_score' : myPerform.hi_score, 'game_type': myPerform.Driver})
+                    'tstop':myPerform.TStop, 'hi_score' : HS, 'game_type': myPerform.Driver})
 
 
 @app.route('/leader_board')
@@ -106,8 +109,8 @@ def show_leader_board():
     #print(myPerform.file)
     #print(myPerform.lead_list)
     #mylog.add_log(myPerform.board_name + ' is the board name')
-    return render_template('leader_board.html', leaders = myPerform.lead_list,
-                           board=myPerform.board_name)
+    return render_template('leader_board.html', leaders = C.lead_list,
+                           board=C.curr_lb)
 
 
 
@@ -120,7 +123,7 @@ def get_new_high_score(): #No data needed since the score is available in the my
     #print(myPerform.lead_list)
     return render_template('add_leader.html',
                            score = myPerform.CorrectRate,
-                           board = myPerform.board_name )
+                           board = C.curr_lb )
 
 
 @app.route('/add_to_leader_board', methods = ['POST'])
@@ -128,9 +131,9 @@ def add_to_leader_board():
     # this will only update the scoreboard and then route to leaderboard
     mylog.add_log('add_to_leader_board - route entered')
     user_name = request.form['user_name']
-    myPerform.lead_list = utils.add_high_score(myPerform.file,user_name,
+    myPerform.lead_list = utils.add_high_score(C.curr_file,user_name,
                                                myPerform.CorrectRate,10)
-    print(myPerform.lead_list)
+    print(C.lead_list)
     return jsonify({'result': 'Name added'})
 
 @app.errorhandler(404)
