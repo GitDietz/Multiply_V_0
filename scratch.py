@@ -8,4 +8,13 @@ def set_q(game_mode):
         q=Q()
 
 
-set_q('fraction_mat')
+#set_q('fraction_mat')
+
+def isFloat(str):
+    try:
+        result = float(str)
+        return True
+    except:
+        return False
+
+print('the value 2.33 is a float ? {}',format(isFloat('2.555')))
