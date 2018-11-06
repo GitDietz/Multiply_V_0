@@ -4,14 +4,12 @@ import csv, os.path, utils
 from operator import itemgetter
 from multi import Q
 from fractor import QFrac
+import logger as log
 
 class Config(object):
     #this stores the config data from the json until the app closes
     def __init__(self):
-        self.reset()
-
-    def reset(self):
-        #what do we need for the leader boards only? game_mode
+        self.mylog = log.logger('MLog.txt')
         self.config = utils.get_config()
         self.curr_game = ''
         self.curr_mode = ''
@@ -20,38 +18,40 @@ class Config(object):
         self.curr_var1 = 1
         self.curr_var2 = True
         self.lead_list = []
-        print('Config set')
+        self.last_page = ''
+        self.mylog.add_log('Config initialised')
 
     def set(self,game_mode):
+        self.mylog.add_log('Config, set method start')
         found = False
         for f in self.config:
             print(f['game'] + ' file of ' + f['file'])
             if f['game'] == game_mode:
                 self.curr_file = f['file']
                 self.curr_lb = f['boardname']
+                qset = game_mode.split("_")
+                self.curr_game = qset[0]
+                self.curr_mode = qset[1]
+                if qset[0] == 'frac':
+                    self.curr_var1 = int(qset[2])
+                    if qset[3] == 'True':
+                        self.curr_var2 = True
+                    else:
+                        self.curr_var2 = False
                 found = True
                 break
-        if found:
-            # the format is frac_set, frac_time
-            qset = game_mode.split("_")
-            self.curr_game = qset[0]
-            self.curr_mode = qset[1]
-            if qset[0] == 'frac':
-                self.curr_var1 = int(qset[2])
-                if qset[3] == 'True':
-                    self.curr_var2 = True
-                else:
-                    self.curr_var2 = False
-        else:
+        if not found:
             raise ValueError('No game of type ''{}'' found in config file'.format(game_mode))
 
     def get_lead_list(self):
+        self.mylog.add_log('Config, get_lead_list method start')
         leadlist = utils.load_list_json(self.curr_file)
         leadlist.sort(key=itemgetter('CPM'), reverse=True)
         self.lead_list = leadlist
         return self.lead_list
 
     def set_question(self):
+        self.mylog.add_log('Config, set question method start')
         if self.curr_game == 'multi':
             return Q()
         elif self.curr_game == 'frac':
@@ -60,6 +60,9 @@ class Config(object):
             return None
 
     def is_high_score(self,CorrectRate):
+        self.mylog.add_log('Config, is HScore method start')
+        if self.curr_file == '':
+            pass
         lead_list = utils.load_list_json(self.curr_file)
         lead_list.sort(key=itemgetter('CPM'))
         low_val = lead_list[0]['CPM']
@@ -76,6 +79,7 @@ class Perf(object):  #is reset when new game is started
         self.reset(mode)
 
     def reset(self,mode):
+        self.mylog = log.logger('MLog.txt')
         self.Asked = 0
         self.QLimit = 4
         self.Start = t.time() #this is in sec
@@ -87,32 +91,30 @@ class Perf(object):  #is reset when new game is started
         self.CorrectRate = 0.0
         self.running = True
         self.stats = ''
-        #self.hi_score = 'No'
-        #self.lead_list = []
-        #self.low_score = 0.0
-
-
+        self.mylog.add_log('Perform initialised')
+    '''
     def start_stop(self,toggle, mode = None):
         if mode:#change to only set mode nothing else
             return True
         else:
             return False
+    '''
 
     def get_lead_list(self):
+        self.mylog.add_log('Perform get lead list starts')
         leadlist = utils.load_list_json(self.file)
         leadlist.sort(key=itemgetter('CPM'), reverse=True)
         self.lead_list = leadlist
         return self.lead_list
 
     def CheckForStop(self):
+        self.mylog.add_log('Check for stop')
         if self.Driver == 'time':
             if t.time()>=self.TStop:
                 self.StopNow = 'yes'
         else:
             if self.Asked >= self.QLimit:
                 self.StopNow = 'yes'
-        #if self.StopNow == 'yes':
-        #    self.is_high_score()
 
     def RecalcRates(self):
         self.AnswerRate = round(self.Asked * 60 / (t.time() - self.Start),2)
@@ -122,6 +124,7 @@ class Perf(object):  #is reset when new game is started
                     + "Scored {} out of {}".format(self.Correct,self.Asked)
 
     def updateScore(self,result):
+        self.mylog.add_log('Update score')
         self.Asked += 1
         self.CheckForStop()
         if result == True:
@@ -129,12 +132,14 @@ class Perf(object):  #is reset when new game is started
         self.RecalcRates()
 
     def set_leader_board(self):
+        self.mylog.add_log('set leader board')
         l = utils.get_score_file(self.Driver)
         self.file = l[0]
         #print('file is {}'.format(self.file))
         self.board_name = l[1]
 
     def is_high_score(self):
+        self.mylog.add_log('Check for new high score')
         #print('func is_high_score starts')
         #now add the other content from ishighscore in app here toset high or not
         lead_list = utils.load_list_json(self.file)

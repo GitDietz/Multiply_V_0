@@ -1,5 +1,5 @@
 import json,datetime as d,os
-import logger
+import logger as log
 from operator import itemgetter
 
 now = d.datetime.now()

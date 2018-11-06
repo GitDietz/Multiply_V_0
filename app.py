@@ -16,6 +16,7 @@ C = Config()
 myPerform = Perf('set')
 
 def set_q(game_mode):
+    mylog.add_log('set_q game mode. Used?')
     print('game is '+game_mode + " no other values set")
     qset = game_mode.split("_")
     if qset[0] == 'frac':
@@ -23,7 +24,12 @@ def set_q(game_mode):
     elif qset[0] == 'multi':
         return Q()
 
-
+@app.before_request
+def confirm_origin():
+    if C.last_page == '' and request.endpoint != 'homepage':
+        #redirect to start/index
+        return redirect(url_for('homepage'))
+    else return
 
 @app.route('/')
 def homepage():
@@ -61,6 +67,7 @@ def start_game(game_mode):
     #add validation to ensure only valid options are passed
     mylog.add_log('Route start_game entered with mode = ' + game_mode)
     C.set(game_mode)
+    C.last_page = 'Start game'
     myPerform.reset(C.curr_mode)
     theQ = C.set_question()
     #set_q(game_mode)
@@ -74,6 +81,7 @@ def start_game(game_mode):
 def show_lb_direct(game_mode):
     mylog.add_log('direct leaderboard - route entered')
     C.set(game_mode)
+    C.last_page = 'Leader board direct'
     leaders = C.get_lead_list()
     board_name = C.curr_lb
     return render_template('leader_board.html', leaders = leaders,
@@ -82,19 +90,23 @@ def show_lb_direct(game_mode):
 
 @app.route('/submit_answer', methods = ['POST'])
 def submit_answer():
+    C.last_page = 'Answer submitted'
     global theQ
     HS = 'No'
     answer = request.form['answer'] #answer is the key in the json
     mylog.add_log('Answer route entered, Result received as ' + answer)
     last_result = theQ.result(answer)
     if theQ.invalid == False:
+        mylog.add_log('valid format answer received')
         myPerform.updateScore(theQ.r)
         if myPerform.StopNow == 'yes':#lower case for javascript = yes
             HS = C.is_high_score(myPerform.CorrectRate) #is title case = Yes
-        theQ.reset() ##short circuit this part. and why is the lead list not being updated on C?
-        Q = theQ.q
-    else:
-        Q = None
+            Q = 'No Question'
+            mylog.add_log('Game will stop')
+        else:
+            theQ.reset() ##short circuit this part. and why is the lead list not being updated on C?
+            Q = theQ.q
+    #else:
 
     stats = str.replace(myPerform.stats, '\n', '<br>')
     return jsonify({'result': 'OK good', 'reaction': last_result,
@@ -104,6 +116,7 @@ def submit_answer():
 
 @app.route('/leader_board')
 def show_leader_board():
+    C.last_page = 'End Game leader board'
     mylog.add_log('show leaderboard - route entered')
     #print(myPerform.CorrectRate)
     #print(myPerform.file)
@@ -118,6 +131,7 @@ def show_leader_board():
 @app.route('/get_new_high_score')#, methods = ['POST']
 def get_new_high_score(): #No data needed since the score is available in the myPerform
     mylog.add_log('get_new_high_score - route entered')
+    C.last_page = 'Get new high score'
     #print('score is '+str(myPerform.CorrectRate))
     #print('Board is = {}'.format(myPerform.board_name))
     #print(myPerform.lead_list)
@@ -128,6 +142,7 @@ def get_new_high_score(): #No data needed since the score is available in the my
 
 @app.route('/add_to_leader_board', methods = ['POST'])
 def add_to_leader_board():
+    C.last_page = 'Add name to leader board'
     # this will only update the scoreboard and then route to leaderboard
     mylog.add_log('add_to_leader_board - route entered')
     user_name = request.form['user_name']

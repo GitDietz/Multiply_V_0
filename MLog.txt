@@ -996,3 +996,116 @@
 2018-10-31 22:04:32.476366, Answer route entered, Result received as 12.
 2018-10-31 22:04:36.752434, Answer route entered, Result received as 19/7
 2018-10-31 22:04:41.128616, Answer route entered, Result received as 24/5
+2018-11-01 17:18:02.378157, Logger initialised
+2018-11-01 17:18:03.404272, Logger initialised
+2018-11-01 17:18:10.350818, Home route entered
+2018-11-01 17:18:14.060030, Route start_game entered with mode = frac_set_3_True
+2018-11-01 17:18:20.291254, Answer route entered, Result received as 2.3
+2018-11-01 17:19:44.752950, Logger initialised
+2018-11-01 17:19:47.969185, Answer route entered, Result received as 23/12
+2018-11-01 17:21:30.321248, Answer route entered, Result received as 23
+2018-11-01 17:21:43.587560, Answer route entered, Result received as 1.3
+2018-11-01 17:21:55.670407, Home route entered
+2018-11-01 17:21:57.688994, Route start_game entered with mode = frac_set_3_True
+2018-11-01 17:22:02.040306, Answer route entered, Result received as 1.2
+2018-11-01 17:24:22.783220, Home route entered
+2018-11-01 17:24:24.532757, Route start_game entered with mode = frac_set_3_True
+2018-11-01 17:24:32.281498, Answer route entered, Result received as 24/11
+2018-11-06 07:18:18.158487, Answer route entered, Result received as 21/12
+2018-11-06 07:19:36.792574, Answer route entered, Result received as 21/12
+2018-11-06 07:20:07.478407, Answer route entered, Result received as 17/9
+2018-11-06 07:22:46.581786, Logger initialised
+2018-11-06 07:22:47.581195, Logger initialised
+2018-11-06 07:23:15.789487, Answer route entered, Result received as 17/9
+2018-11-06 07:24:19.937825, Home route entered
+2018-11-06 07:24:31.134468, Route start_game entered with mode = frac_set_3_True
+2018-11-06 07:24:39.056891, Answer route entered, Result received as 13/6
+2018-11-06 07:24:56.851963, Answer route entered, Result received as 24/7
+2018-11-06 07:25:13.574956, Answer route entered, Result received as 23/5
+2018-11-06 07:25:25.724364, Answer route entered, Result received as 11
+2018-11-06 07:27:52.960972, Logger initialised
+2018-11-06 07:27:53.081593, Home route entered
+2018-11-06 07:27:54.977208, Route start_game entered with mode = frac_set_3_True
+2018-11-06 07:28:00.790569, Answer route entered, Result received as 12
+2018-11-06 07:28:14.972202, Answer route entered, Result received as 15/12
+2018-11-06 07:28:27.135669, Answer route entered, Result received as 21/8
+2018-11-06 07:28:44.147811, Answer route entered, Result received as 22/7
+2018-11-06 07:29:23.970426, Logger initialised
+2018-11-06 07:29:24.952666, Logger initialised
+2018-11-06 07:29:31.683713, Home route entered
+2018-11-06 07:29:34.429616, Route start_game entered with mode = frac_set_3_True
+2018-11-06 07:29:42.630956, Answer route entered, Result received as 29/12
+2018-11-06 07:29:53.520391, Answer route entered, Result received as 27/9
+2018-11-06 07:30:02.787475, Answer route entered, Result received as 7/5
+2018-11-06 07:30:24.376170, Answer route entered, Result received as 17/3
+2018-11-06 07:31:41.405112, Logger initialised
+2018-11-06 07:31:42.462383, Logger initialised
+2018-11-06 07:31:45.586843, Home route entered
+2018-11-06 07:31:47.435670, Route start_game entered with mode = frac_set_3_True
+2018-11-06 07:31:52.970944, Answer route entered, Result received as 12/7
+2018-11-06 07:31:56.627164, Answer route entered, Result received as 13/5
+2018-11-06 07:32:02.278070, Answer route entered, Result received as 23/4
+2018-11-06 07:32:08.184520, Answer route entered, Result received as 21/12
+2018-11-06 07:34:57.704918, Logger initialised
+2018-11-06 07:34:58.815434, Logger initialised
+2018-11-06 07:34:59.433290, Home route entered
+2018-11-06 07:35:00.239880, Route start_game entered with mode = multi_set
+2018-11-06 07:35:09.341970, Answer route entered, Result received as 35
+2018-11-06 07:35:26.040033, Answer route entered, Result received as 56
+2018-11-06 07:35:28.534018, Answer route entered, Result received as 40
+2018-11-06 07:35:33.355666, Answer route entered, Result received as 24
+2018-11-06 07:35:42.212988, get_new_high_score - route entered
+2018-11-06 07:35:46.134270, Logger initialised
+2018-11-06 07:35:54.955159, add_to_leader_board - route entered
+2018-11-06 07:35:57.567249, add_to_leader_board - route entered
+2018-11-06 07:35:59.224158, add_to_leader_board - route entered
+2018-11-06 07:39:08.408981, add_to_leader_board - route entered
+2018-11-06 07:51:38.353809, Logger initialised
+2018-11-06 07:51:38.354251, Logger initialised
+2018-11-06 07:51:38.354842, Config initialised
+2018-11-06 07:51:38.753970, Logger initialised
+2018-11-06 07:51:38.754262, Logger initialised
+2018-11-06 07:51:38.754689, Config initialised
+2018-11-06 17:00:29.111765, Logger initialised
+2018-11-06 17:00:29.112698, Logger initialised
+2018-11-06 17:00:29.114272, Config initialised
+2018-11-06 17:00:29.114719, Logger initialised
+2018-11-06 17:00:29.115036, Perform initialised
+2018-11-06 17:00:30.052328, Logger initialised
+2018-11-06 17:00:30.061045, Logger initialised
+2018-11-06 17:00:30.062816, Config initialised
+2018-11-06 17:00:30.063309, Logger initialised
+2018-11-06 17:00:30.063553, Perform initialised
+2018-11-06 17:19:21.032482, Logger initialised
+2018-11-06 17:19:21.033312, Logger initialised
+2018-11-06 17:19:21.034909, Config initialised
+2018-11-06 17:19:21.035436, Logger initialised
+2018-11-06 17:19:21.035685, Perform initialised
+2018-11-06 17:19:22.042233, Logger initialised
+2018-11-06 17:19:22.042779, Logger initialised
+2018-11-06 17:19:22.044026, Config initialised
+2018-11-06 17:19:22.044402, Logger initialised
+2018-11-06 17:19:22.045047, Perform initialised
+2018-11-06 17:20:46.048221, Logger initialised
+2018-11-06 17:20:46.049021, Logger initialised
+2018-11-06 17:20:46.050497, Config initialised
+2018-11-06 17:20:46.050867, Logger initialised
+2018-11-06 17:20:46.051052, Perform initialised
+2018-11-06 17:20:47.030909, Logger initialised
+2018-11-06 17:20:47.031375, Logger initialised
+2018-11-06 17:20:47.032513, Config initialised
+2018-11-06 17:20:47.032848, Logger initialised
+2018-11-06 17:20:47.033032, Perform initialised
+2018-11-06 17:20:52.863148, Home route entered
+2018-11-06 17:20:53.184334, Home route entered
+2018-11-06 17:20:53.195957, Home route entered
+2018-11-06 17:20:53.207208, Home route entered
+2018-11-06 17:20:53.298280, Home route entered
+2018-11-06 17:20:53.336642, Home route entered
+2018-11-06 17:20:53.343256, Home route entered
+2018-11-06 17:20:53.357370, Home route entered
+2018-11-06 17:20:59.201266, Home route entered
+2018-11-06 17:20:59.355816, Home route entered
+2018-11-06 17:20:59.408481, Home route entered
+2018-11-06 17:20:59.409967, Home route entered
+2018-11-06 17:20:59.467095, Home route entered

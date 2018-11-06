@@ -1,5 +1,5 @@
 import random as Rd
-
+import logger as log
 
 class Q(object):
     def __init__(self):
