@@ -66,7 +66,7 @@ class Config(object):
         lead_list = utils.load_list_json(self.curr_file)
         lead_list.sort(key=itemgetter('CPM'))
         low_val = lead_list[0]['CPM']
-        lead_list = lead_list.sort(key=itemgetter('CPM'), reverse=True)
+        lead_list.sort(key=itemgetter('CPM'), reverse=True)
         self.lead_list = lead_list
         if CorrectRate > low_val:
             return 'Yes'
@@ -81,7 +81,7 @@ class Perf(object):  #is reset when new game is started
     def reset(self,mode):
         self.mylog = log.logger('MLog.txt')
         self.Asked = 0
-        self.QLimit = 4
+        self.QLimit = 20
         self.Start = t.time() #this is in sec
         self.Correct = 0
         self.TStop = t.time() + 60

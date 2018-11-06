@@ -6,6 +6,8 @@ from game_control import Perf, Config
 from operator import itemgetter
 import utils, os
 
+#Last edit 21:44 
+
 app = Flask(__name__)
 mylog = log.logger('MLog.txt')
 app.secret_key = 'aqd123'  #used before the  implementation of the config file
@@ -23,13 +25,15 @@ def set_q(game_mode):
         return QFrac(3, True)
     elif qset[0] == 'multi':
         return Q()
+'''
 
 @app.before_request
 def confirm_origin():
     if C.last_page == '' and request.endpoint != 'homepage':
+        mylog.add_log('before decorator triggered')
         #redirect to start/index
         return redirect(url_for('homepage'))
-    else return
+'''
 
 @app.route('/')
 def homepage():
@@ -146,9 +150,9 @@ def add_to_leader_board():
     # this will only update the scoreboard and then route to leaderboard
     mylog.add_log('add_to_leader_board - route entered')
     user_name = request.form['user_name']
-    myPerform.lead_list = utils.add_high_score(C.curr_file,user_name,
+    C.lead_list = utils.add_high_score(C.curr_file,user_name,
                                                myPerform.CorrectRate,10)
-    print(C.lead_list)
+    #print(C.lead_list)
     return jsonify({'result': 'Name added'})
 
 @app.errorhandler(404)
