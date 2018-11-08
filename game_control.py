@@ -20,6 +20,7 @@ class Config(object):
         self.lead_list = []
         self.last_page = ''
         self.mylog.add_log('Config initialised')
+        self.gameset = False
 
     def set(self,game_mode):
         self.mylog.add_log('Config, set method start')
@@ -39,9 +40,11 @@ class Config(object):
                     else:
                         self.curr_var2 = False
                 found = True
+                self.gameset = True
                 break
-        if not found:
-            raise ValueError('No game of type ''{}'' found in config file'.format(game_mode))
+        #if not found:
+            #raise ValueError('No game of type ''{}'' found in config file'.format(game_mode))
+         #   return False
 
     def get_lead_list(self):
         self.mylog.add_log('Config, get_lead_list method start')

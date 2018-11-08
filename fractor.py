@@ -10,28 +10,33 @@ class QFrac(object):
 
     def set(self,no_of,same_denom):
         self.top = 12
+        self.top_denom = 5
         self.tolerance = 0.000000001
         self.no_of = no_of
         self.same_denom = same_denom
         self.reset()
 
+
     def reset(self):
         self.components = []
-        self.q = 'What is '
-        numer = Rd.randint(2, self.top)
-        self.components.append(numer)
+        self.q = ''
+        #numer = Rd.randint(2, self.top)
+        #self.components.append(numer)
         denominator = Rd.randint(2, self.top)
-        self.components.append(denominator)
+        #self.components.append(denominator)
 
-        self.q += str(numer) + '/' + str(denominator) + ' '
-        self.correct_result = numer/denominator
-        for i in range(1,self.no_of):
+        #self.q += str(numer) + '/' + str(denominator) + ' '
+        self.correct_result = 0.0
+        for i in range(0,self.no_of):
             numer = Rd.randint(1, self.top)
             self.components.append(numer)
             if not self.same_denom:
-                denominator = Rd.randint(2, self.top)
+                denominator = Rd.randint(2, self.top_denom)
             self.components.append(denominator)
-            self.q += ' + ' + str(numer) + '/' + str(denominator) +' '
+            if self.q == '':
+                self.q = 'What is ' + str(numer) + '/' + str(denominator)
+            else:
+                self.q += ' + ' + str(numer) + '/' + str(denominator)
             self.correct_result += numer/denominator
         self.invalid = True  # this means a non number value was given
         self.r = False  # use to store the result

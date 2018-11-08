@@ -339,3 +339,552 @@
 2018-11-06 20:34:33.119600, add_to_leader_board - route entered
 2018-11-06 20:34:33.142434, show leaderboard - route entered
 2018-11-06 20:34:37.672543, Home route entered
+2018-11-07 07:23:17.689844, Logger initialised
+2018-11-07 07:23:17.690479, Logger initialised
+2018-11-07 07:23:17.691270, Config initialised
+2018-11-07 07:23:17.691582, Logger initialised
+2018-11-07 07:23:17.691764, Perform initialised
+2018-11-07 07:23:18.109371, Logger initialised
+2018-11-07 07:23:18.109742, Logger initialised
+2018-11-07 07:23:18.110181, Config initialised
+2018-11-07 07:23:18.110355, Logger initialised
+2018-11-07 07:23:18.110520, Perform initialised
+2018-11-07 07:23:30.372073, Home route entered
+2018-11-07 07:23:44.056398, Route start_game entered with mode = frac_set_3_True
+2018-11-07 07:23:44.057082, Config, set method start
+2018-11-07 07:23:44.057430, Logger initialised
+2018-11-07 07:23:44.057739, Perform initialised
+2018-11-07 07:23:44.057994, Config, set question method start
+2018-11-07 07:23:53.988312, Answer route entered, Result received as 23/5
+2018-11-07 07:23:53.989139, valid format answer received
+2018-11-07 07:23:53.989448, Update score
+2018-11-07 07:23:53.989638, Check for stop
+2018-11-07 07:23:59.677444, Answer route entered, Result received as 14
+2018-11-07 07:23:59.677795, valid format answer received
+2018-11-07 07:23:59.678024, Update score
+2018-11-07 07:23:59.678233, Check for stop
+2018-11-07 07:24:07.269469, Answer route entered, Result received as 20/3
+2018-11-07 07:24:07.269964, valid format answer received
+2018-11-07 07:24:07.270300, Update score
+2018-11-07 07:24:07.270591, Check for stop
+2018-11-07 07:24:16.948355, Answer route entered, Result received as 20/3
+2018-11-07 07:24:16.956078, valid format answer received
+2018-11-07 07:24:16.956696, Update score
+2018-11-07 07:24:16.957068, Check for stop
+2018-11-07 07:24:24.918683, Answer route entered, Result received as 6/11
+2018-11-07 07:24:24.918902, valid format answer received
+2018-11-07 07:24:24.926532, Update score
+2018-11-07 07:24:24.927217, Check for stop
+2018-11-07 07:24:29.587093, Answer route entered, Result received as 22/6
+2018-11-07 07:24:29.587464, valid format answer received
+2018-11-07 07:24:29.587713, Update score
+2018-11-07 07:24:29.587952, Check for stop
+2018-11-07 07:24:39.976437, Answer route entered, Result received as 25/11
+2018-11-07 07:24:39.976634, valid format answer received
+2018-11-07 07:24:39.979061, Update score
+2018-11-07 07:24:39.979401, Check for stop
+2018-11-07 07:24:48.813638, Answer route entered, Result received as 23/2
+2018-11-07 07:24:48.814006, valid format answer received
+2018-11-07 07:24:48.818197, Update score
+2018-11-07 07:24:48.818427, Check for stop
+2018-11-07 07:24:51.389080, Answer route entered, Result received as 2
+2018-11-07 07:24:51.389488, valid format answer received
+2018-11-07 07:24:51.394212, Update score
+2018-11-07 07:24:51.394487, Check for stop
+2018-11-07 07:24:58.364053, Answer route entered, Result received as 7/9
+2018-11-07 07:24:58.364206, valid format answer received
+2018-11-07 07:24:58.371901, Update score
+2018-11-07 07:24:58.372348, Check for stop
+2018-11-07 07:25:03.412136, Answer route entered, Result received as 21/5
+2018-11-07 07:25:03.412306, valid format answer received
+2018-11-07 07:25:03.418468, Update score
+2018-11-07 07:25:03.418819, Check for stop
+2018-11-07 07:25:11.513953, Answer route entered, Result received as 0.9
+2018-11-07 07:25:11.514134, valid format answer received
+2018-11-07 07:25:11.518656, Update score
+2018-11-07 07:25:11.519177, Check for stop
+2018-11-07 07:25:16.152936, Answer route entered, Result received as 24/9
+2018-11-07 07:25:16.153152, valid format answer received
+2018-11-07 07:25:16.159797, Update score
+2018-11-07 07:25:16.160279, Check for stop
+2018-11-07 07:25:20.533320, Answer route entered, Result received as 5
+2018-11-07 07:25:20.533521, valid format answer received
+2018-11-07 07:25:20.533667, Update score
+2018-11-07 07:25:20.533804, Check for stop
+2018-11-07 07:25:29.912939, Answer route entered, Result received as 18/8
+2018-11-07 07:25:29.913155, valid format answer received
+2018-11-07 07:25:29.918985, Update score
+2018-11-07 07:25:29.919403, Check for stop
+2018-11-07 07:25:41.845915, Answer route entered, Result received as 17/7
+2018-11-07 07:25:41.846152, valid format answer received
+2018-11-07 07:25:41.852673, Update score
+2018-11-07 07:25:41.853173, Check for stop
+2018-11-07 07:25:46.135293, Answer route entered, Result received as 17/9
+2018-11-07 07:25:46.135494, valid format answer received
+2018-11-07 07:25:46.141291, Update score
+2018-11-07 07:25:46.141671, Check for stop
+2018-11-07 07:25:53.802361, Answer route entered, Result received as 28/9
+2018-11-07 07:25:53.802662, valid format answer received
+2018-11-07 07:25:53.807094, Update score
+2018-11-07 07:25:53.807535, Check for stop
+2018-11-07 07:25:57.386062, Answer route entered, Result received as 14/9
+2018-11-07 07:25:57.386298, valid format answer received
+2018-11-07 07:25:57.391729, Update score
+2018-11-07 07:25:57.392311, Check for stop
+2018-11-07 07:26:01.781522, Answer route entered, Result received as 29/11
+2018-11-07 07:26:01.781742, valid format answer received
+2018-11-07 07:26:01.787213, Update score
+2018-11-07 07:26:01.787604, Check for stop
+2018-11-07 07:26:01.788067, Config, is HScore method start
+2018-11-07 07:26:01.790547, Game will stop
+2018-11-07 07:26:02.644362, get_new_high_score - route entered
+2018-11-07 07:26:13.569158, add_to_leader_board - route entered
+2018-11-07 07:26:13.871806, show leaderboard - route entered
+2018-11-07 07:26:21.016003, Home route entered
+2018-11-07 07:36:03.558897, Logger initialised
+2018-11-07 07:36:03.559564, Logger initialised
+2018-11-07 07:36:03.560431, Config initialised
+2018-11-07 07:36:03.560710, Logger initialised
+2018-11-07 07:36:03.560908, Perform initialised
+2018-11-07 07:36:03.885945, Logger initialised
+2018-11-07 07:36:03.894521, Logger initialised
+2018-11-07 07:36:03.895283, Config initialised
+2018-11-07 07:36:03.895542, Logger initialised
+2018-11-07 07:36:03.895773, Perform initialised
+2018-11-07 07:36:14.134397, Route start_game entered with mode = frac_set_3_True
+2018-11-07 07:36:14.134708, Config, set method start
+2018-11-07 07:36:14.135017, Logger initialised
+2018-11-07 07:36:14.135236, Perform initialised
+2018-11-07 07:36:14.135434, Config, set question method start
+2018-11-07 07:36:24.861246, Route start_game entered with mode = frac_set_3_False
+2018-11-07 07:36:24.869944, Config, set method start
+2018-11-07 07:36:24.870264, Logger initialised
+2018-11-07 07:36:24.870440, Perform initialised
+2018-11-07 07:36:24.870599, Config, set question method start
+2018-11-07 07:37:29.942655, Home route entered
+2018-11-07 07:37:44.193389, Route start_game entered with mode = zonga
+2018-11-07 07:37:44.202025, Config, set method start
+2018-11-07 07:37:44.202363, Logger initialised
+2018-11-07 07:37:44.202579, Perform initialised
+2018-11-07 07:37:44.202778, Config, set question method start
+2018-11-07 07:37:51.169336, Route start_game entered with mode = zonga
+2018-11-07 07:37:51.177392, Config, set method start
+2018-11-07 07:37:51.177930, Logger initialised
+2018-11-07 07:37:51.178361, Perform initialised
+2018-11-07 07:37:51.178607, Config, set question method start
+2018-11-07 07:37:56.619143, Home route entered
+2018-11-07 07:37:58.816267, Home route entered
+2018-11-07 07:38:12.025369, Route start_game entered with mode = zonga
+2018-11-07 07:38:12.025585, Config, set method start
+2018-11-07 07:38:12.025792, Logger initialised
+2018-11-07 07:38:12.025930, Perform initialised
+2018-11-07 07:38:12.026147, Config, set question method start
+2018-11-07 07:38:27.161435, Logger initialised
+2018-11-07 07:38:27.161706, Logger initialised
+2018-11-07 07:38:27.163268, Config initialised
+2018-11-07 07:38:27.163809, Logger initialised
+2018-11-07 07:38:27.164060, Perform initialised
+2018-11-07 07:38:28.196210, Logger initialised
+2018-11-07 07:38:28.204321, Logger initialised
+2018-11-07 07:38:28.206278, Config initialised
+2018-11-07 07:38:28.206621, Logger initialised
+2018-11-07 07:38:28.206881, Perform initialised
+2018-11-07 07:38:32.485583, Route start_game entered with mode = zonga
+2018-11-07 07:38:41.169064, Config, set method start
+2018-11-07 07:40:17.763520, Logger initialised
+2018-11-07 07:40:17.763785, Logger initialised
+2018-11-07 07:40:17.764450, Config initialised
+2018-11-07 07:40:17.764688, Logger initialised
+2018-11-07 07:40:17.764893, Perform initialised
+2018-11-07 07:40:18.115736, Logger initialised
+2018-11-07 07:40:18.123515, Logger initialised
+2018-11-07 07:40:18.124848, Config initialised
+2018-11-07 07:40:18.125171, Logger initialised
+2018-11-07 07:40:18.125438, Perform initialised
+2018-11-07 07:40:21.538720, Home route entered
+2018-11-07 07:40:25.228460, direct leaderboard - route entered
+2018-11-07 07:40:25.236534, Config, set method start
+2018-11-07 07:40:25.237315, Config, get_lead_list method start
+2018-11-07 07:40:30.326852, Home route entered
+2018-11-07 07:40:32.319091, direct leaderboard - route entered
+2018-11-07 07:40:32.327488, Config, set method start
+2018-11-07 07:40:32.327830, Config, get_lead_list method start
+2018-11-07 07:40:38.480386, Home route entered
+2018-11-07 07:40:40.484416, direct leaderboard - route entered
+2018-11-07 07:40:40.492964, Config, set method start
+2018-11-07 07:40:40.493529, Config, get_lead_list method start
+2018-11-07 07:40:42.889974, Home route entered
+2018-11-07 07:40:44.429489, direct leaderboard - route entered
+2018-11-07 07:40:44.437108, Config, set method start
+2018-11-07 07:40:44.437859, Config, get_lead_list method start
+2018-11-07 07:40:47.555563, Home route entered
+2018-11-07 07:40:49.193110, Route start_game entered with mode = multi_set
+2018-11-07 07:40:49.193398, Config, set method start
+2018-11-07 07:40:49.193643, Logger initialised
+2018-11-07 07:40:49.193910, Perform initialised
+2018-11-07 07:40:49.194109, Config, set question method start
+2018-11-07 07:41:30.203421, Answer route entered, Result received as 88
+2018-11-07 07:41:30.204187, valid format answer received
+2018-11-07 07:41:30.204516, Update score
+2018-11-07 07:41:30.204807, Check for stop
+2018-11-07 07:41:32.445159, Home route entered
+2018-11-07 07:55:16.826467, Logger initialised
+2018-11-07 07:55:16.827265, Logger initialised
+2018-11-07 07:55:16.828227, Config initialised
+2018-11-07 07:55:16.828507, Logger initialised
+2018-11-07 07:55:16.828712, Perform initialised
+2018-11-07 07:55:17.236349, Logger initialised
+2018-11-07 07:55:17.236659, Logger initialised
+2018-11-07 07:55:17.237446, Config initialised
+2018-11-07 07:55:17.237798, Logger initialised
+2018-11-07 07:55:17.238123, Perform initialised
+2018-11-07 07:55:19.928961, Home route entered
+2018-11-07 07:55:30.520177, direct leaderboard - route entered
+2018-11-07 07:55:30.528990, Config, set method start
+2018-11-07 07:55:30.529563, Config, get_lead_list method start
+2018-11-07 07:55:33.251773, Home route entered
+2018-11-07 07:55:34.897316, direct leaderboard - route entered
+2018-11-07 07:55:34.905801, Config, set method start
+2018-11-07 07:55:34.906192, Config, get_lead_list method start
+2018-11-07 07:55:37.351424, Home route entered
+2018-11-07 07:55:41.781578, Route start_game entered with mode = frac_time_3_False
+2018-11-07 07:55:41.789940, Config, set method start
+2018-11-07 07:55:41.790461, Logger initialised
+2018-11-07 07:55:41.790715, Perform initialised
+2018-11-07 07:55:41.790935, Config, set question method start
+2018-11-07 07:56:17.042164, Answer route entered, Result received as 3.5
+2018-11-07 07:56:17.044187, valid format answer received
+2018-11-07 07:56:17.044444, Update score
+2018-11-07 07:56:17.044639, Check for stop
+2018-11-07 07:56:40.168900, Answer route entered, Result received as 8
+2018-11-07 07:56:40.172020, valid format answer received
+2018-11-07 07:56:40.172231, Update score
+2018-11-07 07:56:40.172418, Check for stop
+2018-11-07 07:57:00.151241, Answer route entered, Result received as 3
+2018-11-07 07:57:00.156712, valid format answer received
+2018-11-07 07:57:00.157226, Update score
+2018-11-07 07:57:00.158475, Check for stop
+2018-11-07 07:57:00.158845, Config, is HScore method start
+2018-11-07 07:57:00.159647, Game will stop
+2018-11-07 07:57:00.196130, get_new_high_score - route entered
+2018-11-07 07:57:13.575537, add_to_leader_board - route entered
+2018-11-07 07:57:13.610103, show leaderboard - route entered
+2018-11-07 08:02:26.606479, Logger initialised
+2018-11-07 08:02:26.607140, Logger initialised
+2018-11-07 08:02:26.608158, Config initialised
+2018-11-07 08:02:26.608466, Logger initialised
+2018-11-07 08:02:26.608670, Perform initialised
+2018-11-07 08:02:26.981569, Logger initialised
+2018-11-07 08:02:26.981820, Logger initialised
+2018-11-07 08:02:26.982205, Config initialised
+2018-11-07 08:02:26.982391, Logger initialised
+2018-11-07 08:02:26.982535, Perform initialised
+2018-11-07 08:02:29.586762, Home route entered
+2018-11-07 08:02:32.707318, Route start_game entered with mode = frac_time_3_False
+2018-11-07 08:02:32.707537, Config, set method start
+2018-11-07 08:02:32.707856, Logger initialised
+2018-11-07 08:02:32.708128, Perform initialised
+2018-11-07 08:02:32.708361, Config, set question method start
+2018-11-07 08:03:11.243335, Logger initialised
+2018-11-07 08:03:11.243826, Logger initialised
+2018-11-07 08:03:11.244855, Config initialised
+2018-11-07 08:03:11.245210, Logger initialised
+2018-11-07 08:03:11.245467, Perform initialised
+2018-11-07 08:03:18.598684, Route start_game entered with mode = frac_time_3_False
+2018-11-07 08:03:18.598927, Config, set method start
+2018-11-07 08:03:18.599173, Logger initialised
+2018-11-07 08:03:18.599369, Perform initialised
+2018-11-07 08:03:18.599504, Config, set question method start
+2018-11-07 08:04:19.819292, Answer route entered, Result received as 42/12
+2018-11-07 08:04:19.819589, valid format answer received
+2018-11-07 08:04:19.819925, Update score
+2018-11-07 08:04:19.820196, Check for stop
+2018-11-07 08:04:19.820499, Config, is HScore method start
+2018-11-07 08:04:19.821513, Game will stop
+2018-11-07 08:04:19.848934, show leaderboard - route entered
+2018-11-07 08:06:58.429781, Logger initialised
+2018-11-07 08:06:58.430339, Logger initialised
+2018-11-07 08:06:58.431136, Config initialised
+2018-11-07 08:06:58.431376, Logger initialised
+2018-11-07 08:06:58.431566, Perform initialised
+2018-11-07 08:07:02.364238, Home route entered
+2018-11-07 08:07:04.084868, Route start_game entered with mode = frac_time_3_False
+2018-11-07 08:07:04.085271, Config, set method start
+2018-11-07 08:07:04.085561, Logger initialised
+2018-11-07 08:07:04.085739, Perform initialised
+2018-11-07 08:07:04.085892, Config, set question method start
+2018-11-07 08:07:47.861764, Logger initialised
+2018-11-07 08:07:47.862241, Logger initialised
+2018-11-07 08:07:47.862960, Config initialised
+2018-11-07 08:07:47.863128, Logger initialised
+2018-11-07 08:07:47.863648, Perform initialised
+2018-11-07 08:07:49.759479, Route start_game entered with mode = frac_time_3_False
+2018-11-07 08:07:49.767549, Config, set method start
+2018-11-07 08:07:49.767936, Logger initialised
+2018-11-07 08:07:49.768135, Perform initialised
+2018-11-07 08:07:49.768311, Config, set question method start
+2018-11-08 17:02:13.914226, Logger initialised
+2018-11-08 17:02:13.914733, Logger initialised
+2018-11-08 17:02:13.915496, Config initialised
+2018-11-08 17:02:13.915726, Logger initialised
+2018-11-08 17:02:13.915926, Perform initialised
+2018-11-08 17:02:14.262882, Logger initialised
+2018-11-08 17:02:14.270627, Logger initialised
+2018-11-08 17:02:14.271328, Config initialised
+2018-11-08 17:02:14.271705, Logger initialised
+2018-11-08 17:02:14.271979, Perform initialised
+2018-11-08 17:02:25.129892, Home route entered
+2018-11-08 17:02:25.332790, Home route entered
+2018-11-08 17:02:27.087353, Home route entered
+2018-11-08 17:02:52.842869, Home route entered
+2018-11-08 17:03:02.793014, direct leaderboard - route entered
+2018-11-08 17:03:02.793530, Config, set method start
+2018-11-08 17:03:02.793847, Config, get_lead_list method start
+2018-11-08 17:03:05.796489, Home route entered
+2018-11-08 17:03:08.284316, Route start_game entered with mode = frac_time_3_False
+2018-11-08 17:03:08.284593, Config, set method start
+2018-11-08 17:03:08.284894, Logger initialised
+2018-11-08 17:03:08.285093, Perform initialised
+2018-11-08 17:03:08.285270, Config, set question method start
+2018-11-08 17:03:50.088943, Answer route entered, Result received as 55/12
+2018-11-08 17:03:50.091154, valid format answer received
+2018-11-08 17:03:50.091443, Update score
+2018-11-08 17:03:50.091669, Check for stop
+2018-11-08 17:04:16.570180, Answer route entered, Result received as 3.25
+2018-11-08 17:04:16.578806, valid format answer received
+2018-11-08 17:04:16.579074, Update score
+2018-11-08 17:04:16.579287, Check for stop
+2018-11-08 17:04:16.579540, Config, is HScore method start
+2018-11-08 17:04:16.580452, Game will stop
+2018-11-08 17:04:16.600495, get_new_high_score - route entered
+2018-11-08 17:04:26.272902, add_to_leader_board - route entered
+2018-11-08 17:04:26.297829, show leaderboard - route entered
+2018-11-08 17:04:30.166333, Home route entered
+2018-11-08 17:05:52.520950, Route start_game entered with mode = frac_time_3_True
+2018-11-08 17:05:52.521672, Config, set method start
+2018-11-08 17:05:52.522121, Logger initialised
+2018-11-08 17:05:52.522430, Perform initialised
+2018-11-08 17:05:52.522876, Config, set question method start
+2018-11-08 17:06:38.068350, Logger initialised
+2018-11-08 17:06:38.068996, Logger initialised
+2018-11-08 17:06:38.069898, Config initialised
+2018-11-08 17:06:38.070115, Logger initialised
+2018-11-08 17:06:38.070280, Perform initialised
+2018-11-08 17:06:38.478045, Logger initialised
+2018-11-08 17:06:38.486167, Logger initialised
+2018-11-08 17:06:38.486997, Config initialised
+2018-11-08 17:06:38.487401, Logger initialised
+2018-11-08 17:06:38.487785, Perform initialised
+2018-11-08 17:06:47.414399, Route start_game entered with mode = multi_time
+2018-11-08 17:06:47.414703, Config, set method start
+2018-11-08 17:06:47.414941, Logger initialised
+2018-11-08 17:06:47.415397, Perform initialised
+2018-11-08 17:06:47.415677, Config, set question method start
+2018-11-08 17:06:50.070027, Answer route entered, Result received as 4
+2018-11-08 17:06:50.070431, valid format answer received
+2018-11-08 17:06:50.070858, Update score
+2018-11-08 17:06:50.071142, Check for stop
+2018-11-08 17:06:51.665890, Answer route entered, Result received as 20
+2018-11-08 17:06:51.674183, valid format answer received
+2018-11-08 17:06:51.674472, Update score
+2018-11-08 17:06:51.674718, Check for stop
+2018-11-08 17:06:53.260843, Answer route entered, Result received as 30
+2018-11-08 17:06:53.269152, valid format answer received
+2018-11-08 17:06:53.269398, Update score
+2018-11-08 17:06:53.269571, Check for stop
+2018-11-08 17:06:55.325904, Answer route entered, Result received as 72
+2018-11-08 17:06:55.330094, valid format answer received
+2018-11-08 17:06:55.330622, Update score
+2018-11-08 17:06:55.330918, Check for stop
+2018-11-08 17:06:58.128640, Answer route entered, Result received as 50
+2018-11-08 17:06:58.129013, valid format answer received
+2018-11-08 17:06:58.129219, Update score
+2018-11-08 17:06:58.129501, Check for stop
+2018-11-08 17:06:59.583408, Answer route entered, Result received as 9
+2018-11-08 17:06:59.591864, valid format answer received
+2018-11-08 17:06:59.592145, Update score
+2018-11-08 17:06:59.592359, Check for stop
+2018-11-08 17:07:01.157622, Answer route entered, Result received as 24
+2018-11-08 17:07:01.158299, valid format answer received
+2018-11-08 17:07:01.158685, Update score
+2018-11-08 17:07:01.159055, Check for stop
+2018-11-08 17:07:02.542230, Answer route entered, Result received as 21
+2018-11-08 17:07:02.542575, valid format answer received
+2018-11-08 17:07:02.543025, Update score
+2018-11-08 17:07:02.543427, Check for stop
+2018-11-08 17:07:09.693994, Answer route entered, Result received as 36
+2018-11-08 17:07:09.695780, valid format answer received
+2018-11-08 17:07:09.696188, Update score
+2018-11-08 17:07:09.696474, Check for stop
+2018-11-08 17:07:10.903346, Answer route entered, Result received as 21
+2018-11-08 17:07:10.911584, valid format answer received
+2018-11-08 17:07:10.911947, Update score
+2018-11-08 17:07:10.912186, Check for stop
+2018-11-08 17:07:12.526025, Answer route entered, Result received as 10
+2018-11-08 17:07:12.534556, valid format answer received
+2018-11-08 17:07:12.534831, Update score
+2018-11-08 17:07:12.535040, Check for stop
+2018-11-08 17:07:19.320703, Answer route entered, Result received as 36
+2018-11-08 17:07:19.321038, valid format answer received
+2018-11-08 17:07:19.321285, Update score
+2018-11-08 17:07:19.321758, Check for stop
+2018-11-08 17:07:21.266580, Answer route entered, Result received as 90
+2018-11-08 17:07:21.274952, valid format answer received
+2018-11-08 17:07:21.275248, Update score
+2018-11-08 17:07:21.275470, Check for stop
+2018-11-08 17:07:25.926558, Answer route entered, Result received as 56
+2018-11-08 17:07:25.935135, valid format answer received
+2018-11-08 17:07:25.935663, Update score
+2018-11-08 17:07:25.935942, Check for stop
+2018-11-08 17:07:33.401353, Answer route entered, Result received as 117
+2018-11-08 17:07:33.409926, valid format answer received
+2018-11-08 17:07:33.410302, Update score
+2018-11-08 17:07:33.410581, Check for stop
+2018-11-08 17:07:35.694794, Answer route entered, Result received as 8
+2018-11-08 17:07:35.695666, valid format answer received
+2018-11-08 17:07:35.696185, Update score
+2018-11-08 17:07:35.696566, Check for stop
+2018-11-08 17:07:39.903679, Answer route entered, Result received as 72
+2018-11-08 17:07:39.912113, valid format answer received
+2018-11-08 17:07:39.912417, Update score
+2018-11-08 17:07:39.912640, Check for stop
+2018-11-08 17:07:41.746010, Answer route entered, Result received as 15
+2018-11-08 17:07:41.746233, valid format answer received
+2018-11-08 17:07:41.746478, Update score
+2018-11-08 17:07:41.746896, Check for stop
+2018-11-08 17:07:43.494125, Answer route entered, Result received as 8
+2018-11-08 17:07:43.502397, valid format answer received
+2018-11-08 17:07:43.503046, Update score
+2018-11-08 17:07:43.503215, Check for stop
+2018-11-08 17:07:46.216570, Answer route entered, Result received as 45
+2018-11-08 17:07:46.224992, valid format answer received
+2018-11-08 17:07:46.225373, Update score
+2018-11-08 17:07:46.225600, Check for stop
+2018-11-08 17:07:49.197937, Answer route entered, Result received as 72
+2018-11-08 17:07:49.206451, valid format answer received
+2018-11-08 17:07:49.206747, Update score
+2018-11-08 17:07:49.206972, Check for stop
+2018-11-08 17:07:49.207235, Config, is HScore method start
+2018-11-08 17:07:49.208354, Game will stop
+2018-11-08 17:07:49.230724, get_new_high_score - route entered
+2018-11-08 17:07:55.258413, add_to_leader_board - route entered
+2018-11-08 17:07:55.281416, show leaderboard - route entered
+2018-11-08 17:07:59.218230, Home route entered
+2018-11-08 17:08:01.495852, Route start_game entered with mode = frac_time_3_False
+2018-11-08 17:08:01.496952, Config, set method start
+2018-11-08 17:08:01.497220, Logger initialised
+2018-11-08 17:08:01.497395, Perform initialised
+2018-11-08 17:08:01.497539, Config, set question method start
+2018-11-08 17:08:33.262115, Answer route entered, Result received as 30
+2018-11-08 17:08:33.270407, valid format answer received
+2018-11-08 17:08:33.270763, Update score
+2018-11-08 17:08:33.271040, Check for stop
+2018-11-08 17:08:53.995373, Answer route entered, Result received as 10/2
+2018-11-08 17:08:54.003655, valid format answer received
+2018-11-08 17:08:54.003952, Update score
+2018-11-08 17:08:54.004158, Check for stop
+2018-11-08 17:09:47.511237, Answer route entered, Result received as 72/12
+2018-11-08 17:09:47.519729, valid format answer received
+2018-11-08 17:09:47.519956, Update score
+2018-11-08 17:09:47.520244, Check for stop
+2018-11-08 17:09:47.520749, Config, is HScore method start
+2018-11-08 17:09:47.521722, Game will stop
+2018-11-08 17:09:47.543521, show leaderboard - route entered
+2018-11-08 17:10:24.235611, Logger initialised
+2018-11-08 17:10:24.236554, Logger initialised
+2018-11-08 17:10:24.238363, Config initialised
+2018-11-08 17:10:24.239484, Logger initialised
+2018-11-08 17:10:57.214575, Perform initialised
+2018-11-08 17:10:58.643701, Logger initialised
+2018-11-08 17:10:58.643985, Logger initialised
+2018-11-08 17:10:58.645745, Config initialised
+2018-11-08 17:10:58.646051, Logger initialised
+2018-11-08 17:10:58.646263, Perform initialised
+2018-11-08 17:11:01.584318, Home route entered
+2018-11-08 17:11:04.383959, direct leaderboard - route entered
+2018-11-08 17:11:04.384354, Config, set method start
+2018-11-08 17:11:04.384714, Config, get_lead_list method start
+2018-11-08 17:11:21.692984, Home route entered
+2018-11-08 17:11:23.663331, Route start_game entered with mode = frac_time_3_False
+2018-11-08 17:11:23.663704, Config, set method start
+2018-11-08 17:11:23.664194, Logger initialised
+2018-11-08 17:11:23.664468, Perform initialised
+2018-11-08 17:11:23.664748, Config, set question method start
+2018-11-08 17:13:53.999119, Answer route entered, Result received as 407/60
+2018-11-08 17:15:28.300870, valid format answer received
+2018-11-08 17:15:28.301902, Update score
+2018-11-08 17:15:28.302296, Check for stop
+2018-11-08 17:15:28.302753, Config, is HScore method start
+2018-11-08 17:15:28.304066, Game will stop
+2018-11-08 17:15:28.365127, show leaderboard - route entered
+2018-11-08 17:15:32.642472, Home route entered
+2018-11-08 17:15:34.876068, Route start_game entered with mode = frac_time_3_False
+2018-11-08 17:15:34.876618, Config, set method start
+2018-11-08 17:15:34.877405, Logger initialised
+2018-11-08 17:15:34.877722, Perform initialised
+2018-11-08 17:15:34.878046, Config, set question method start
+2018-11-08 17:16:33.439200, Answer route entered, Result received as 36/10
+2018-11-08 17:17:31.925643, valid format answer received
+2018-11-08 17:17:31.927575, Update score
+2018-11-08 17:17:31.928436, Check for stop
+2018-11-08 17:17:31.928869, Config, is HScore method start
+2018-11-08 17:17:31.930998, Game will stop
+2018-11-08 17:17:32.003427, get_new_high_score - route entered
+2018-11-08 17:17:41.130648, add_to_leader_board - route entered
+2018-11-08 17:17:41.171518, show leaderboard - route entered
+2018-11-08 17:17:50.147511, Home route entered
+2018-11-08 17:17:52.231742, Route start_game entered with mode = frac_time_3_True
+2018-11-08 17:17:52.232038, Config, set method start
+2018-11-08 17:17:52.232406, Logger initialised
+2018-11-08 17:17:52.232809, Perform initialised
+2018-11-08 17:17:52.233229, Config, set question method start
+2018-11-08 17:17:59.697162, Answer route entered, Result received as 21/11
+2018-11-08 17:18:05.525035, valid format answer received
+2018-11-08 17:18:05.525384, Update score
+2018-11-08 17:18:05.525595, Check for stop
+2018-11-08 17:18:13.447916, Answer route entered, Result received as 23/3
+2018-11-08 17:18:13.456395, valid format answer received
+2018-11-08 17:18:13.456806, Update score
+2018-11-08 17:18:13.457141, Check for stop
+2018-11-08 17:18:19.295018, Answer route entered, Result received as 16/12
+2018-11-08 17:18:19.303682, valid format answer received
+2018-11-08 17:18:19.304081, Update score
+2018-11-08 17:18:19.304407, Check for stop
+2018-11-08 17:18:24.295483, Answer route entered, Result received as 17/6
+2018-11-08 17:18:24.304177, valid format answer received
+2018-11-08 17:18:24.304737, Update score
+2018-11-08 17:18:24.305144, Check for stop
+2018-11-08 17:18:29.070611, Answer route entered, Result received as 0.6
+2018-11-08 17:18:29.078719, valid format answer received
+2018-11-08 17:18:29.079236, Update score
+2018-11-08 17:18:29.079593, Check for stop
+2018-11-08 17:18:37.418497, Answer route entered, Result received as 5
+2018-11-08 17:18:37.418889, valid format answer received
+2018-11-08 17:18:37.419237, Update score
+2018-11-08 17:18:37.419562, Check for stop
+2018-11-08 17:18:45.965094, Answer route entered, Result received as 3
+2018-11-08 17:18:45.973574, valid format answer received
+2018-11-08 17:18:45.974093, Update score
+2018-11-08 17:18:45.974447, Check for stop
+2018-11-08 17:18:51.510832, Answer route entered, Result received as 13/4
+2018-11-08 17:18:51.520093, valid format answer received
+2018-11-08 17:18:51.520700, Update score
+2018-11-08 17:18:51.521125, Check for stop
+2018-11-08 17:18:55.073937, Answer route entered, Result received as 5
+2018-11-08 17:18:55.082548, valid format answer received
+2018-11-08 17:18:55.082991, Update score
+2018-11-08 17:18:55.083378, Check for stop
+2018-11-08 17:18:55.083851, Config, is HScore method start
+2018-11-08 17:18:55.085741, Game will stop
+2018-11-08 17:18:55.129998, get_new_high_score - route entered
+2018-11-08 17:19:02.525508, add_to_leader_board - route entered
+2018-11-08 17:19:02.555834, show leaderboard - route entered
+2018-11-08 17:19:07.488280, Home route entered
+2018-11-08 17:19:08.853739, direct leaderboard - route entered
+2018-11-08 17:19:08.862219, Config, set method start
+2018-11-08 17:19:08.862811, Config, get_lead_list method start
+2018-11-08 17:19:10.558879, Home route entered
+2018-11-08 17:19:12.005202, direct leaderboard - route entered
+2018-11-08 17:19:12.005569, Config, set method start
+2018-11-08 17:19:12.005871, Config, get_lead_list method start
+2018-11-08 17:19:13.447451, Home route entered
