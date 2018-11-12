@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+    <section class="jumbotron text-center">
+        <h1 class="jumbotron-heading">Invalid Game selection</h1>
+        <h2> An invalid game mode was selected </h2>
+        <div class="container-fluid">
+            <div class="col-md-12" id="return_main" >
+                <a  href="{{url_for('homepage')}}">Return to Game Menu </a>
+            </div>
+        </div>
+        <p></p>
+    </section>
+{% endblock %}
+{% block scripts %}
+
+{% endblock %}

@@ -1,3 +1,6 @@
 #General
 .DS_Store
 __pycache__/
+/not_used/*
+.idea
+

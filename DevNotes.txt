@@ -1,3 +1,38 @@
+Control flow:
+============
+app at startup
+	init C=config
+		.config = utils.get_config (json from file) - no game type or method set now
+	init theQ
+		sets the question as a multiplication question + answer
+	init myperform = perf('set')
+		.driver = set meaning a set of questions and not timed
+
+app with leaderboard options - will need to reset the config
+	C.set(game_mode)
+		sets filename and board name, current game and mode
+    myPerform.reset(C.curr_mode)
+    	sets the mode again, start timer
+    myPerform.get_lead_list()
+    	loads the list from file, sorts , set to property and returns it
+    leaders = myPerform.lead_list
+		not elegant - puts it to another variable to pass to the template
+
+At the end of the game:
+	my perform.updateScore is run
+		this runs check for stop, then if a stop check for high score
+	todo: move isHighScore to config, pass self.correctrate from my perform as param
+		
+
+
+============
+Mods 20181015
+
+alter classes to take .reset as full re_init
+    take .newq as just a new question to generate
+move game selection and mode to game_control
+function to split game and mode & init class
+
 Logic flow 20180710
 
 game.HTML

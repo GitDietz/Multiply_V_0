@@ -1,62 +1,94 @@
 import random as Rd, json
+from utils import isFloat
 
 class QFrac(object):
     '''
     Fraction question object
     '''
     def __init__(self,no_of,same_denom):
-        self.reset(no_of,same_denom)
+        self.set(no_of,same_denom)
 
-    def reset(self,no_of,same_denom):
-        top = 12
+    def set(self,no_of,same_denom):
+        self.top = 12
+        self.top_denom = 5
+        self.tolerance = 0.000000001
+        self.no_of = no_of
+        self.same_denom = same_denom
+        self.reset()
+
+
+    def reset(self):
         self.components = []
-        self.q = 'What is '
-        numer = Rd.randint(2, top)
-        self.components.append(numer)
-        denominator = Rd.randint(2, top)
-        self.components.append(denominator)
+        self.q = ''
+        #numer = Rd.randint(2, self.top)
+        #self.components.append(numer)
+        denominator = Rd.randint(2, self.top)
+        #self.components.append(denominator)
 
-        self.q += str(numer) + '/' + str(denominator) + ' '
-        self.result = numer/denominator
-        for i in range(1,no_of):
-            numer = Rd.randint(1, top)
+        #self.q += str(numer) + '/' + str(denominator) + ' '
+        self.correct_result = 0.0
+        for i in range(0,self.no_of):
+            numer = Rd.randint(1, self.top)
             self.components.append(numer)
-            if not same_denom:
-                denominator = Rd.randint(2, top)
+            if not self.same_denom:
+                denominator = Rd.randint(2, self.top_denom)
             self.components.append(denominator)
-            self.q += ' + ' + str(numer) + '/' + str(denominator) +' '
-            self.result += numer/denominator
+            if self.q == '':
+                self.q = 'What is ' + str(numer) + '/' + str(denominator)
+            else:
+                self.q += ' + ' + str(numer) + '/' + str(denominator)
+            self.correct_result += numer/denominator
         self.invalid = True  # this means a non number value was given
-        self.answer = False  # use to store the result
-        print(self.components)
-        jval = json.dumps(self.components)
-        print(jval)
+        self.r = False  # use to store the result
 
-def prep_answer():
-    #return Correct or not
-    myval = input('What is your answer?')
-    #no / contained not all values
-    if myval.find('/')==-1:
-        return 'Format needs to be 2 numbers separated with the / e.g. 3 / 4'
-    else:
-        parts = myval.split('/')
-        print(parts)
-        if parts[0].isnumeric() and parts[1].isnumeric():
-            result = True
-            return ('Resulting in {}'.format(str(int(parts[0]) / int(parts[1]))))
+        #print(self.components)
+        #jval = json.dumps(self.components)
+        #print(jval)
+
+    def result(self, myval):
+        #return Correct or not
+        #no / contained not all values
+        self.r = False
+        if isFloat(myval):
+            if abs(float(myval) - self.correct_result) <= self.tolerance:
+                self.invalid = False
+                self.r = True
+                return 'Well Done!'
+            else:
+                self.invalid = False
+                return 'Not quite'
+
+        if myval.find('/')==-1:
+            comment = 'Format needs to be 2 numbers separated with the / e.g. 3 / 4'
         else:
-            return 'Both parts must be numbers'
+            parts = myval.split('/')
+            #print(parts)
+            if parts[0].isnumeric() and parts[1].isnumeric():
+                if abs((int(parts[0]) / int(parts[1])) - self.correct_result) <= self.tolerance:
+                    #print('Resulting in {}'.format(str(int(parts[0]) / int(parts[1]))))
+                    comment = 'Well Done!'
+                    self.invalid = False
+                    self.r = True
+                else:
+                    comment = 'Not quite'
+                    self.invalid = False
+            else:
+                comment = 'Both parts must be numbers'
+        return comment
 
 def __main__():
     question = QFrac(4,True)
-    result = False
     print(question.q)
-    while result == False:
-        print('The result will be {}'.format(question.result))
-        print(prep_answer())
+
+    while question.r == False:
+        response = input('What is your answer?')
+        print(question.result(response))
 
 
 
+'''
 if __name__ == '__main__':
     __main__()
+'''
+
 
