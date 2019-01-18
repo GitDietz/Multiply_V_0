@@ -23,7 +23,7 @@ At the end of the game:
 		this runs check for stop, then if a stop check for high score
 	todo: move isHighScore to config, pass self.correctrate from my perform as param
 		
-
+12Nov - confirm last change was on 8Nov 5:18. check iMac version and then merge the branches and update python anywhere.
 
 ============
 Mods 20181015
